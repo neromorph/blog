@@ -91,5 +91,4 @@ jobs:
       - name: Run CodeQL
         uses: github/codeql-action/analyze@v3
         with:
-          languages: ['typescript']
-          category: "/language:typescript"
+          languages: typescript
