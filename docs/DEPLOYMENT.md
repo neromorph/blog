@@ -2,81 +2,69 @@
 
 ## Overview
 
-This blog is deployed to Cloudflare Pages. You connect Cloudflare Pages manually to the GitHub repository.
+This blog deploys to Cloudflare Pages using GitHub Actions.
 
-## GitHub Connection
+## Two Deployment Options
+
+### Option A: GitHub Integration (Recommended)
+
+Connect Cloudflare Pages directly to GitHub:
 
 1. Go to [Cloudflare Dashboard](https://dash.cloudflare.com/) → Pages
-2. Click "Create a project"
-3. Select "Import from GitHub"
-4. Authorize Cloudflare to access your GitHub repos
-5. Select `neromorph/blog`
-6. Configure project:
-   - **Project name:** `blog` (or your preference)
-   - **Production branch:** `main`
+2. Create Project → Import from GitHub
+3. Configure:
    - **Build command:** `npm run build`
    - **Build output directory:** `dist`
 
-7. Click "Save and Deploy"
+Cloudflare Pages auto-builds on every push to `main`.
+
+### Option B: GitHub Actions (Full Control)
+
+Use the included CI workflow that deploys via `cloudflare/pages-action`.
+
+**Required GitHub Secrets:**
+
+| Secret | Description |
+|--------|-------------|
+| `CLOUDFLARE_API_TOKEN` | Cloudflare API token with Pages edit permission |
+| `CLOUDFLARE_ACCOUNT_ID` | Found in Cloudflare Dashboard URL |
+| `CLOUDFLARE_PROJECT_NAME` | Your Cloudflare Pages project name |
+
+**Create API Token:**
+1. Cloudflare Dashboard → My Profile → API Tokens
+2. Create Custom Token
+3. Account permissions: `Cloudflare Pages: Edit`
+4. Copy token to GitHub Secrets
+
+## Preview Deployments
+
+- **GitHub Integration:** Auto-creates preview URLs for PRs
+- **GitHub Actions:** Currently production-only (modify workflow for PR previews)
 
 ## Environment Variables
 
-For production builds, set these in Cloudflare Pages → Settings → Environment Variables:
+Set in GitHub Secrets or Cloudflare Pages settings:
 
 | Variable | Value |
 |----------|-------|
 | `SITE_URL` | `https://blog.nmrooms.biz.id` |
 
-## Preview Deployments
-
-Cloudflare Pages automatically creates preview deployments for pull requests.
-
-Preview URL format: `https://[project-name].[hash].pages.dev`
-
 ## Manual Deployment
 
-To deploy manually:
-
 ```bash
-# Install Wrangler
-npm install -g wrangler
-
-# Deploy
-wrangler pages deploy dist
+npm run build
+# Upload dist/ folder via Cloudflare Dashboard
 ```
-
-## Rollback
-
-To rollback:
-
-1. Cloudflare Dashboard → Pages → Your project
-2. Deployments tab
-3. Find previous working deployment
-4. Click "Promote to production"
-
-## Caching
-
-Cloudflare handles:
-- Static assets: 1 year cache
-- HTML: No cache (always fresh)
-- CDN edge caching globally
 
 ## Troubleshooting
 
-### Build fails
+### Build fails on Cloudflare but works locally
 
-1. Check GitHub Actions logs for CI failures
-2. Verify `npm run build` works locally
-3. Check environment variables are set
+- Verify Node.js version matches (Cloudflare uses Node 18+)
+- Check all dependencies are in `dependencies`, not `devDependencies`
 
 ### Deployment not updating
 
-1. Check Cloudflare Pages deployment log
-2. Verify build completed successfully
-3. Clear Cloudflare cache if needed
-
-### Preview not working
-
-1. Ensure repo is connected in Cloudflare Pages
-2. Check Cloudflare Pages integration settings
-3. Verify Cloudflare GitHub app has repo access
+1. Check GitHub Actions logs
+2. Verify secrets are set correctly
+3. Check Cloudflare Pages deployment history

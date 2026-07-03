@@ -43,6 +43,17 @@ Search Priority: Current repo → Graphify → Official docs → Internet
 
 ---
 
+## Git Hooks
+
+Run `graphify hook install` after cloning to enable automatic graph rebuilds:
+
+- **post-commit** — rebuilds knowledge graph after every commit
+- **post-checkout** — rebuilds knowledge graph after every branch switch
+
+This keeps the Graphify index synchronized with the codebase.
+
+---
+
 ## Coding Standards
 
 ### Astro Components
