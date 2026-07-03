@@ -1,0 +1,73 @@
+---
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { absoluteUrl, personJsonLd, websiteJsonLd } from '../lib/seo';
+import { site } from '../lib/site';
+import '../styles/global.css';
+
+interface Props {
+  title?: string;
+  description?: string;
+  canonical?: string;
+  image?: string;
+  jsonLd?: unknown[];
+}
+
+const title = Astro.props.title ? `${Astro.props.title} | ${site.name}` : site.name;
+const description = Astro.props.description ?? site.description;
+const canonical = Astro.props.canonical ?? absoluteUrl(Astro.url.pathname);
+const image = Astro.props.image ? absoluteUrl(Astro.props.image) : undefined;
+const jsonLd = [personJsonLd(), websiteJsonLd(), ...(Astro.props.jsonLd ?? [])];
+const token = import.meta.env.PUBLIC_CLOUDFLARE_ANALYTICS_TOKEN;
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <link rel="alternate" type="application/rss+xml" title={site.name} href="/rss.xml" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    {image && <meta property="og:image" content={image} />}
+    <meta name="twitter:card" content={image ? 'summary_large_image' : 'summary'} />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <script is:inline>
+      const saved = localStorage.getItem('theme');
+      const dark = saved ? saved === 'dark' : matchMedia('(prefers-color-scheme: dark)').matches;
+      document.documentElement.classList.toggle('dark', dark);
+    </script>
+    {jsonLd.map((item) => <script is:inline type="application/ld+json" set:html={JSON.stringify(item)} />)}
+    {token && <script is:inline defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon={JSON.stringify({ token })}></script>}
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <Header />
+    <main id="main"><slot /></main>
+    <Footer />
+    <script is:inline>
+      document.querySelector('[data-theme-toggle]')?.addEventListener('click', () => {
+        const dark = !document.documentElement.classList.contains('dark');
+        document.documentElement.classList.toggle('dark', dark);
+        localStorage.setItem('theme', dark ? 'dark' : 'light');
+      });
+      document.querySelectorAll('pre').forEach((pre) => {
+        const button = document.createElement('button');
+        button.textContent = 'Copy';
+        button.type = 'button';
+        button.style.cssText = 'float:right;margin:.25rem;padding:.25rem .5rem;border-radius:8px;border:1px solid currentColor;background:transparent;color:inherit;cursor:pointer';
+        button.addEventListener('click', async () => {
+          await navigator.clipboard.writeText(pre.innerText.replace(/^Copy\n/, ''));
+          button.textContent = 'Copied';
+          setTimeout(() => (button.textContent = 'Copy'), 1200);
+        });
+        pre.prepend(button);
+      });
+    </script>
+  </body>
+</html>

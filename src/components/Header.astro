@@ -1,0 +1,16 @@
+---
+import { site } from '../lib/site';
+---
+<header class="site-header">
+  <nav class="container nav" aria-label="Main navigation">
+    <a class="brand" href="/">{site.name}</a>
+    <div class="nav-links">
+      <a href="/blog/">Articles</a>
+      <a href="/categories/">Categories</a>
+      <a href="/tags/">Tags</a>
+      <a href="/about/">About</a>
+      <a href="/search/">Search</a>
+      <button class="theme-toggle" type="button" data-theme-toggle aria-label="Toggle dark mode">☾</button>
+    </div>
+  </nav>
+</header>

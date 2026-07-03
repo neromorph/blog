@@ -1,0 +1,25 @@
+name: Documentation Request
+description: Improve documentation
+title: "[Docs]: "
+labels: ["documentation"]
+body:
+  - type: textarea
+    id: current
+    attributes:
+      label: Current Documentation
+      description: What documentation needs improvement?
+      placeholder: Link to or describe current docs
+    validations:
+      required: true
+  - type: textarea
+    id: improvement
+    attributes:
+      label: Suggested Improvement
+      description: How should it be improved?
+    validations:
+      required: true
+  - type: textarea
+    id: reason
+    attributes:
+      label: Reason
+      description: Why is this documentation important?

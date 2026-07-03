@@ -1,0 +1,15 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getPosts, slugify } from '../../lib/posts';
+const posts = await getPosts();
+const counts = new Map<string, number>();
+posts.forEach((post) => counts.set(post.data.category, (counts.get(post.data.category) ?? 0) + 1));
+---
+<BaseLayout title="Categories" description="Browse articles by category.">
+  <section class="container section">
+    <h1>Categories</h1>
+    <div class="category-grid">
+      {[...counts.entries()].map(([category, count]) => <a class="category-pill" href={`/categories/${slugify(category)}/`}>{category} · {count}</a>)}
+    </div>
+  </section>
+</BaseLayout>

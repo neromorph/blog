@@ -1,0 +1,35 @@
+---
+import PostCard from '../components/PostCard.astro';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getPosts, slugify } from '../lib/posts';
+import { categories, site } from '../lib/site';
+
+const posts = await getPosts();
+const featured = posts.filter((post) => post.data.featured).slice(0, 3);
+const latest = posts.slice(0, 6);
+const counts = new Map(posts.map((post) => [post.data.category, 0]));
+posts.forEach((post) => counts.set(post.data.category, (counts.get(post.data.category) ?? 0) + 1));
+---
+<BaseLayout title="Technical Blog" description={site.description}>
+  <section class="container hero">
+    <h1>Technical notes for building, shipping, and operating software.</h1>
+    <p>{site.description}</p>
+  </section>
+
+  {featured.length > 0 && <section class="container section">
+    <div class="section-head"><h2>Featured articles</h2></div>
+    <div class="grid">{featured.map((post) => <PostCard post={post} />)}</div>
+  </section>}
+
+  <section class="container section">
+    <div class="section-head"><h2>Latest articles</h2><a href="/blog/">View all</a></div>
+    <div class="grid">{latest.map((post) => <PostCard post={post} />)}</div>
+  </section>
+
+  <section class="container section">
+    <div class="section-head"><h2>Popular categories</h2><a href="/categories/">All categories</a></div>
+    <div class="category-grid">
+      {categories.map((category) => <a class="category-pill" href={`/categories/${slugify(category)}/`}>{category} · {counts.get(category) ?? 0}</a>)}
+    </div>
+  </section>
+</BaseLayout>

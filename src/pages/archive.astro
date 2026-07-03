@@ -1,0 +1,13 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getPosts, postUrl } from '../lib/posts';
+const posts = await getPosts();
+---
+<BaseLayout title="Archive" description="All articles by date.">
+  <section class="reading section">
+    <h1>Archive</h1>
+    <ol>
+      {posts.map((post) => <li><time datetime={post.data.publishedDate.toISOString()}>{post.data.publishedDate.getFullYear()}</time> — <a href={postUrl(post)}>{post.data.title}</a></li>)}
+    </ol>
+  </section>
+</BaseLayout>

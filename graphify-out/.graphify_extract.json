@@ -1,0 +1,4374 @@
+{
+  "nodes": [
+    {
+      "id": "collections_blog_schema",
+      "label": "blog.schema.json",
+      "file_type": "code",
+      "source_file": ".astro/collections/blog.schema.json",
+      "source_location": "L1"
+    },
+    {
+      "id": "collections_blog_schema_schema",
+      "label": "$schema",
+      "file_type": "code",
+      "source_file": ".astro/collections/blog.schema.json",
+      "source_location": "L2"
+    },
+    {
+      "id": "collections_blog_schema_type",
+      "label": "type",
+      "file_type": "code",
+      "source_file": ".astro/collections/blog.schema.json",
+      "source_location": "L3"
+    },
+    {
+      "id": "collections_blog_schema_properties",
+      "label": "properties",
+      "file_type": "code",
+      "source_file": ".astro/collections/blog.schema.json",
+      "source_location": "L4"
+    },
+    {
+      "id": "collections_blog_schema_properties_title",
+      "label": "title",
+      "file_type": "code",
+      "source_file": ".astro/collections/blog.schema.json",
+      "source_location": "L5"
+    },
+    {
+      "id": "collections_blog_schema_title_type",
+      "label": "type",
+      "file_type": "code",
+      "source_file": ".astro/collections/blog.schema.json",
+      "source_location": "L6"
+    },
+    {
+      "id": "collections_blog_schema_properties_description",
+      "label": "description",
+      "file_type": "code",
+      "source_file": ".astro/collections/blog.schema.json",
+      "source_location": "L8"
+    },
+    {
+      "id": "collections_blog_schema_description_type",
+      "label": "type",
+      "file_type": "code",
+      "source_file": ".astro/collections/blog.schema.json",
+      "source_location": "L9"
+    },
+    {
+      "id": "collections_blog_schema_description_maxlength",
+      "label": "maxLength",
+      "file_type": "code",
+      "source_file": ".astro/collections/blog.schema.json",
+      "source_location": "L10"
+    },
+    {
+      "id": "collections_blog_schema_properties_publisheddate",
+      "label": "publishedDate",
+      "file_type": "code",
+      "source_file": ".astro/collections/blog.schema.json",
+      "source_location": "L12"
+    },
+    {
+      "id": "collections_blog_schema_publisheddate_type",
+      "label": "type",
+      "file_type": "code",
+      "source_file": ".astro/collections/blog.schema.json",
+      "source_location": "L13"
+    },
+    {
+      "id": "collections_blog_schema_publisheddate_format",
+      "label": "format",
+      "file_type": "code",
+      "source_file": ".astro/collections/blog.schema.json",
+      "source_location": "L14"
+    },
+    {
+      "id": "collections_blog_schema_properties_updateddate",
+      "label": "updatedDate",
+      "file_type": "code",
+      "source_file": ".astro/collections/blog.schema.json",
+      "source_location": "L16"
+    },
+    {
+      "id": "collections_blog_schema_updateddate_type",
+      "label": "type",
+      "file_type": "code",
+      "source_file": ".astro/collections/blog.schema.json",
+      "source_location": "L17"
+    },
+    {
+      "id": "collections_blog_schema_updateddate_format",
+      "label": "format",
+      "file_type": "code",
+      "source_file": ".astro/collections/blog.schema.json",
+      "source_location": "L18"
+    },
+    {
+      "id": "collections_blog_schema_properties_author",
+      "label": "author",
+      "file_type": "code",
+      "source_file": ".astro/collections/blog.schema.json",
+      "source_location": "L20"
+    },
+    {
+      "id": "collections_blog_schema_author_default",
+      "label": "default",
+      "file_type": "code",
+      "source_file": ".astro/collections/blog.schema.json",
+      "source_location": "L21"
+    },
+    {
+      "id": "collections_blog_schema_author_type",
+      "label": "type",
+      "file_type": "code",
+      "source_file": ".astro/collections/blog.schema.json",
+      "source_location": "L22"
+    },
+    {
+      "id": "collections_blog_schema_properties_tags",
+      "label": "tags",
+      "file_type": "code",
+      "source_file": ".astro/collections/blog.schema.json",
+      "source_location": "L24"
+    },
+    {
+      "id": "collections_blog_schema_tags_default",
+      "label": "default",
+      "file_type": "code",
+      "source_file": ".astro/collections/blog.schema.json",
+      "source_location": "L25"
+    },
+    {
+      "id": "collections_blog_schema_tags_type",
+      "label": "type",
+      "file_type": "code",
+      "source_file": ".astro/collections/blog.schema.json",
+      "source_location": "L26"
+    },
+    {
+      "id": "collections_blog_schema_tags_items",
+      "label": "items",
+      "file_type": "code",
+      "source_file": ".astro/collections/blog.schema.json",
+      "source_location": "L27"
+    },
+    {
+      "id": "collections_blog_schema_items_type",
+      "label": "type",
+      "file_type": "code",
+      "source_file": ".astro/collections/blog.schema.json",
+      "source_location": "L28"
+    },
+    {
+      "id": "collections_blog_schema_properties_category",
+      "label": "category",
+      "file_type": "code",
+      "source_file": ".astro/collections/blog.schema.json",
+      "source_location": "L31"
+    },
+    {
+      "id": "collections_blog_schema_category_type",
+      "label": "type",
+      "file_type": "code",
+      "source_file": ".astro/collections/blog.schema.json",
+      "source_location": "L32"
+    },
+    {
+      "id": "collections_blog_schema_properties_coverimage",
+      "label": "coverImage",
+      "file_type": "code",
+      "source_file": ".astro/collections/blog.schema.json",
+      "source_location": "L34"
+    },
+    {
+      "id": "collections_blog_schema_coverimage_type",
+      "label": "type",
+      "file_type": "code",
+      "source_file": ".astro/collections/blog.schema.json",
+      "source_location": "L35"
+    },
+    {
+      "id": "collections_blog_schema_properties_draft",
+      "label": "draft",
+      "file_type": "code",
+      "source_file": ".astro/collections/blog.schema.json",
+      "source_location": "L37"
+    },
+    {
+      "id": "collections_blog_schema_draft_default",
+      "label": "default",
+      "file_type": "code",
+      "source_file": ".astro/collections/blog.schema.json",
+      "source_location": "L38"
+    },
+    {
+      "id": "collections_blog_schema_draft_type",
+      "label": "type",
+      "file_type": "code",
+      "source_file": ".astro/collections/blog.schema.json",
+      "source_location": "L39"
+    },
+    {
+      "id": "collections_blog_schema_properties_featured",
+      "label": "featured",
+      "file_type": "code",
+      "source_file": ".astro/collections/blog.schema.json",
+      "source_location": "L41"
+    },
+    {
+      "id": "collections_blog_schema_featured_default",
+      "label": "default",
+      "file_type": "code",
+      "source_file": ".astro/collections/blog.schema.json",
+      "source_location": "L42"
+    },
+    {
+      "id": "collections_blog_schema_featured_type",
+      "label": "type",
+      "file_type": "code",
+      "source_file": ".astro/collections/blog.schema.json",
+      "source_location": "L43"
+    },
+    {
+      "id": "collections_blog_schema_properties_canonicalurl",
+      "label": "canonicalURL",
+      "file_type": "code",
+      "source_file": ".astro/collections/blog.schema.json",
+      "source_location": "L45"
+    },
+    {
+      "id": "collections_blog_schema_canonicalurl_type",
+      "label": "type",
+      "file_type": "code",
+      "source_file": ".astro/collections/blog.schema.json",
+      "source_location": "L46"
+    },
+    {
+      "id": "collections_blog_schema_canonicalurl_format",
+      "label": "format",
+      "file_type": "code",
+      "source_file": ".astro/collections/blog.schema.json",
+      "source_location": "L47"
+    },
+    {
+      "id": "collections_blog_schema_properties_schema",
+      "label": "$schema",
+      "file_type": "code",
+      "source_file": ".astro/collections/blog.schema.json",
+      "source_location": "L49"
+    },
+    {
+      "id": "collections_blog_schema_schema_type",
+      "label": "type",
+      "file_type": "code",
+      "source_file": ".astro/collections/blog.schema.json",
+      "source_location": "L50"
+    },
+    {
+      "id": "collections_blog_schema_required",
+      "label": "required",
+      "file_type": "code",
+      "source_file": ".astro/collections/blog.schema.json",
+      "source_location": "L53"
+    },
+    {
+      "id": "astro_content_assets",
+      "label": "content-assets.mjs",
+      "file_type": "code",
+      "source_file": ".astro/content-assets.mjs",
+      "source_location": "L1"
+    },
+    {
+      "id": "astro_content_modules",
+      "label": "content-modules.mjs",
+      "file_type": "code",
+      "source_file": ".astro/content-modules.mjs",
+      "source_location": "L1"
+    },
+    {
+      "id": "astro_content_d",
+      "label": "content.d.ts",
+      "file_type": "code",
+      "source_file": ".astro/content.d.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "astro_content_d_render",
+      "label": "Render",
+      "file_type": "code",
+      "source_file": ".astro/content.d.ts",
+      "source_location": "L2"
+    },
+    {
+      "id": "astro_content_d_renderresult",
+      "label": "RenderResult",
+      "file_type": "code",
+      "source_file": ".astro/content.d.ts",
+      "source_location": "L13"
+    },
+    {
+      "id": "astro_content_d_renderedcontent",
+      "label": "RenderedContent",
+      "file_type": "code",
+      "source_file": ".astro/content.d.ts",
+      "source_location": "L22"
+    },
+    {
+      "id": "astro_content_d_flatten",
+      "label": "Flatten",
+      "file_type": "code",
+      "source_file": ".astro/content.d.ts",
+      "source_location": "L30"
+    },
+    {
+      "id": "astro_content_d_collectionkey",
+      "label": "CollectionKey",
+      "file_type": "code",
+      "source_file": ".astro/content.d.ts",
+      "source_location": "L32"
+    },
+    {
+      "id": "astro_content_d_collectionentry",
+      "label": "CollectionEntry",
+      "file_type": "code",
+      "source_file": ".astro/content.d.ts",
+      "source_location": "L33"
+    },
+    {
+      "id": "astro_content_d_allvaluesof",
+      "label": "AllValuesOf",
+      "file_type": "code",
+      "source_file": ".astro/content.d.ts",
+      "source_location": "L35"
+    },
+    {
+      "id": "astro_content_d_referencedataentry",
+      "label": "ReferenceDataEntry",
+      "file_type": "code",
+      "source_file": ".astro/content.d.ts",
+      "source_location": "L37"
+    },
+    {
+      "id": "astro_content_d_referenceliveentry",
+      "label": "ReferenceLiveEntry",
+      "file_type": "code",
+      "source_file": ".astro/content.d.ts",
+      "source_location": "L45"
+    },
+    {
+      "id": "astro_content_d_inferentryschema",
+      "label": "InferEntrySchema",
+      "file_type": "code",
+      "source_file": ".astro/content.d.ts",
+      "source_location": "L126"
+    },
+    {
+      "id": "astro_content_d_extractloaderconfig",
+      "label": "ExtractLoaderConfig",
+      "file_type": "code",
+      "source_file": ".astro/content.d.ts",
+      "source_location": "L129"
+    },
+    {
+      "id": "astro_content_d_inferloaderschema",
+      "label": "InferLoaderSchema",
+      "file_type": "code",
+      "source_file": ".astro/content.d.ts",
+      "source_location": "L130"
+    },
+    {
+      "id": "astro_content_d_dataentrymap",
+      "label": "DataEntryMap",
+      "file_type": "code",
+      "source_file": ".astro/content.d.ts",
+      "source_location": "L137"
+    },
+    {
+      "id": "astro_content_d_extractloadertypes",
+      "label": "ExtractLoaderTypes",
+      "file_type": "code",
+      "source_file": ".astro/content.d.ts",
+      "source_location": "L149"
+    },
+    {
+      "id": "astro_content_d_extractentryfiltertype",
+      "label": "ExtractEntryFilterType",
+      "file_type": "code",
+      "source_file": ".astro/content.d.ts",
+      "source_location": "L157"
+    },
+    {
+      "id": "astro_content_d_extractcollectionfiltertype",
+      "label": "ExtractCollectionFilterType",
+      "file_type": "code",
+      "source_file": ".astro/content.d.ts",
+      "source_location": "L158"
+    },
+    {
+      "id": "astro_content_d_extracterrortype",
+      "label": "ExtractErrorType",
+      "file_type": "code",
+      "source_file": ".astro/content.d.ts",
+      "source_location": "L159"
+    },
+    {
+      "id": "astro_content_d_extractdatatype",
+      "label": "ExtractDataType",
+      "file_type": "code",
+      "source_file": ".astro/content.d.ts",
+      "source_location": "L160"
+    },
+    {
+      "id": "astro_content_d_liveloaderdatatype",
+      "label": "LiveLoaderDataType",
+      "file_type": "code",
+      "source_file": ".astro/content.d.ts",
+      "source_location": "L162"
+    },
+    {
+      "id": "astro_content_d_liveloaderentryfiltertype",
+      "label": "LiveLoaderEntryFilterType",
+      "file_type": "code",
+      "source_file": ".astro/content.d.ts",
+      "source_location": "L168"
+    },
+    {
+      "id": "astro_content_d_liveloadercollectionfiltertype",
+      "label": "LiveLoaderCollectionFilterType",
+      "file_type": "code",
+      "source_file": ".astro/content.d.ts",
+      "source_location": "L170"
+    },
+    {
+      "id": "astro_content_d_liveloadererrortype",
+      "label": "LiveLoaderErrorType",
+      "file_type": "code",
+      "source_file": ".astro/content.d.ts",
+      "source_location": "L172"
+    },
+    {
+      "id": "astro_content_d_contentconfig",
+      "label": "ContentConfig",
+      "file_type": "code",
+      "source_file": ".astro/content.d.ts",
+      "source_location": "L176"
+    },
+    {
+      "id": "astro_content_d_livecontentconfig",
+      "label": "LiveContentConfig",
+      "file_type": "code",
+      "source_file": ".astro/content.d.ts",
+      "source_location": "L177"
+    },
+    {
+      "id": "astro_types_d",
+      "label": "types.d.ts",
+      "file_type": "code",
+      "source_file": ".astro/types.d.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "astro_config",
+      "label": "astro.config.mjs",
+      "file_type": "code",
+      "source_file": "astro.config.mjs",
+      "source_location": "L1"
+    },
+    {
+      "id": "package",
+      "label": "package.json",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L1"
+    },
+    {
+      "id": "package_name",
+      "label": "name",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L2"
+    },
+    {
+      "id": "package_version",
+      "label": "version",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L3"
+    },
+    {
+      "id": "package_description",
+      "label": "description",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L4"
+    },
+    {
+      "id": "package_type",
+      "label": "type",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L5"
+    },
+    {
+      "id": "package_scripts",
+      "label": "scripts",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L6"
+    },
+    {
+      "id": "package_scripts_dev",
+      "label": "dev",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L7"
+    },
+    {
+      "id": "package_scripts_build",
+      "label": "build",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L8"
+    },
+    {
+      "id": "package_scripts_preview",
+      "label": "preview",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L9"
+    },
+    {
+      "id": "package_scripts_astro",
+      "label": "astro",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L10"
+    },
+    {
+      "id": "package_keywords",
+      "label": "keywords",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L12"
+    },
+    {
+      "id": "package_author",
+      "label": "author",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L17"
+    },
+    {
+      "id": "package_license",
+      "label": "license",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L18"
+    },
+    {
+      "id": "package_dependencies",
+      "label": "dependencies",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L19"
+    },
+    {
+      "id": "package_dependencies_astrojs_mdx",
+      "label": "@astrojs/mdx",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L20"
+    },
+    {
+      "id": "package_dependencies_astrojs_rss",
+      "label": "@astrojs/rss",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L21"
+    },
+    {
+      "id": "package_dependencies_astrojs_sitemap",
+      "label": "@astrojs/sitemap",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L22"
+    },
+    {
+      "id": "package_dependencies_astro",
+      "label": "astro",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L23"
+    },
+    {
+      "id": "package_dependencies_reading_time",
+      "label": "reading-time",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L24"
+    },
+    {
+      "id": "package_dependencies_rehype_autolink_headings",
+      "label": "rehype-autolink-headings",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L25"
+    },
+    {
+      "id": "package_dependencies_rehype_slug",
+      "label": "rehype-slug",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L26"
+    },
+    {
+      "id": "package_devdependencies",
+      "label": "devDependencies",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L28"
+    },
+    {
+      "id": "package_devdependencies_astrojs_check",
+      "label": "@astrojs/check",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L29"
+    },
+    {
+      "id": "package_devdependencies_typescript",
+      "label": "typescript",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L30"
+    },
+    {
+      "id": "components_breadcrumbs",
+      "label": "Breadcrumbs.astro",
+      "file_type": "code",
+      "source_file": "src/components/Breadcrumbs.astro",
+      "source_location": "L1"
+    },
+    {
+      "id": "components_footer",
+      "label": "Footer.astro",
+      "file_type": "code",
+      "source_file": "src/components/Footer.astro",
+      "source_location": "L1"
+    },
+    {
+      "id": "users_mufid_personal_projects_blogs_src_lib_site",
+      "label": "../lib/site",
+      "file_type": "code",
+      "source_file": "src/lib/site",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "id": "components_header",
+      "label": "Header.astro",
+      "file_type": "code",
+      "source_file": "src/components/Header.astro",
+      "source_location": "L1"
+    },
+    {
+      "id": "users_mufid_personal_projects_blogs_src_lib_site",
+      "label": "../lib/site",
+      "file_type": "code",
+      "source_file": "src/lib/site",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "id": "components_postcard",
+      "label": "PostCard.astro",
+      "file_type": "code",
+      "source_file": "src/components/PostCard.astro",
+      "source_location": "L1"
+    },
+    {
+      "id": "users_mufid_personal_projects_blogs_src_lib_posts",
+      "label": "../lib/posts",
+      "file_type": "code",
+      "source_file": "src/lib/posts",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "id": "src_content_config",
+      "label": "content.config.ts",
+      "file_type": "code",
+      "source_file": "src/content.config.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_content_config_blog",
+      "label": "blog",
+      "file_type": "code",
+      "source_file": "src/content.config.ts",
+      "source_location": "L5"
+    },
+    {
+      "id": "src_content_config_collections",
+      "label": "collections",
+      "file_type": "code",
+      "source_file": "src/content.config.ts",
+      "source_location": "L22"
+    },
+    {
+      "id": "src_env_d",
+      "label": "env.d.ts",
+      "file_type": "code",
+      "source_file": "src/env.d.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_env_d_importmetaenv",
+      "label": "ImportMetaEnv",
+      "file_type": "code",
+      "source_file": "src/env.d.ts",
+      "source_location": "L4"
+    },
+    {
+      "id": "src_env_d_importmeta",
+      "label": "ImportMeta",
+      "file_type": "code",
+      "source_file": "src/env.d.ts",
+      "source_location": "L8"
+    },
+    {
+      "id": "layouts_baselayout",
+      "label": "BaseLayout.astro",
+      "file_type": "code",
+      "source_file": "src/layouts/BaseLayout.astro",
+      "source_location": "L1"
+    },
+    {
+      "id": "components_header",
+      "label": "../components/Header.astro",
+      "file_type": "code",
+      "source_file": "src/components/Header.astro",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "id": "components_footer",
+      "label": "../components/Footer.astro",
+      "file_type": "code",
+      "source_file": "src/components/Footer.astro",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "id": "users_mufid_personal_projects_blogs_src_lib_seo",
+      "label": "../lib/seo",
+      "file_type": "code",
+      "source_file": "src/lib/seo",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "id": "users_mufid_personal_projects_blogs_src_lib_site",
+      "label": "../lib/site",
+      "file_type": "code",
+      "source_file": "src/lib/site",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "id": "users_mufid_personal_projects_blogs_src_styles_global_css",
+      "label": "../styles/global.css",
+      "file_type": "code",
+      "source_file": "src/styles/global.css",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "id": "lib_pagination",
+      "label": "pagination.ts",
+      "file_type": "code",
+      "source_file": "src/lib/pagination.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "lib_pagination_paginate",
+      "label": "paginate()",
+      "file_type": "code",
+      "source_file": "src/lib/pagination.ts",
+      "source_location": "L3"
+    },
+    {
+      "id": "lib_posts",
+      "label": "posts.ts",
+      "file_type": "code",
+      "source_file": "src/lib/posts.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "lib_posts_blogpost",
+      "label": "BlogPost",
+      "file_type": "code",
+      "source_file": "src/lib/posts.ts",
+      "source_location": "L4"
+    },
+    {
+      "id": "lib_posts_slugify",
+      "label": "slugify()",
+      "file_type": "code",
+      "source_file": "src/lib/posts.ts",
+      "source_location": "L6"
+    },
+    {
+      "id": "lib_posts_posturl",
+      "label": "postUrl()",
+      "file_type": "code",
+      "source_file": "src/lib/posts.ts",
+      "source_location": "L14"
+    },
+    {
+      "id": "lib_posts_getposts",
+      "label": "getPosts()",
+      "file_type": "code",
+      "source_file": "src/lib/posts.ts",
+      "source_location": "L16"
+    },
+    {
+      "id": "lib_posts_getreadingtime",
+      "label": "getReadingTime()",
+      "file_type": "code",
+      "source_file": "src/lib/posts.ts",
+      "source_location": "L23"
+    },
+    {
+      "id": "lib_posts_getrelatedposts",
+      "label": "getRelatedPosts()",
+      "file_type": "code",
+      "source_file": "src/lib/posts.ts",
+      "source_location": "L25"
+    },
+    {
+      "id": "lib_seo",
+      "label": "seo.ts",
+      "file_type": "code",
+      "source_file": "src/lib/seo.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "lib_seo_absoluteurl",
+      "label": "absoluteUrl()",
+      "file_type": "code",
+      "source_file": "src/lib/seo.ts",
+      "source_location": "L3"
+    },
+    {
+      "id": "lib_seo_personjsonld",
+      "label": "personJsonLd()",
+      "file_type": "code",
+      "source_file": "src/lib/seo.ts",
+      "source_location": "L7"
+    },
+    {
+      "id": "lib_seo_websitejsonld",
+      "label": "websiteJsonLd()",
+      "file_type": "code",
+      "source_file": "src/lib/seo.ts",
+      "source_location": "L16"
+    },
+    {
+      "id": "lib_site",
+      "label": "site.ts",
+      "file_type": "code",
+      "source_file": "src/lib/site.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "lib_site_site",
+      "label": "site",
+      "file_type": "code",
+      "source_file": "src/lib/site.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "lib_site_categories",
+      "label": "categories",
+      "file_type": "code",
+      "source_file": "src/lib/site.ts",
+      "source_location": "L10"
+    },
+    {
+      "id": "pages_404",
+      "label": "404.astro",
+      "file_type": "code",
+      "source_file": "src/pages/404.astro",
+      "source_location": "L1"
+    },
+    {
+      "id": "layouts_baselayout",
+      "label": "../layouts/BaseLayout.astro",
+      "file_type": "code",
+      "source_file": "src/layouts/BaseLayout.astro",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "id": "pages_about",
+      "label": "about.astro",
+      "file_type": "code",
+      "source_file": "src/pages/about.astro",
+      "source_location": "L1"
+    },
+    {
+      "id": "layouts_baselayout",
+      "label": "../layouts/BaseLayout.astro",
+      "file_type": "code",
+      "source_file": "src/layouts/BaseLayout.astro",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "id": "pages_archive",
+      "label": "archive.astro",
+      "file_type": "code",
+      "source_file": "src/pages/archive.astro",
+      "source_location": "L1"
+    },
+    {
+      "id": "layouts_baselayout",
+      "label": "../layouts/BaseLayout.astro",
+      "file_type": "code",
+      "source_file": "src/layouts/BaseLayout.astro",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "id": "users_mufid_personal_projects_blogs_src_lib_posts",
+      "label": "../lib/posts",
+      "file_type": "code",
+      "source_file": "src/lib/posts",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "id": "blog_slug",
+      "label": "[...slug].astro",
+      "file_type": "code",
+      "source_file": "src/pages/blog/[...slug].astro",
+      "source_location": "L1"
+    },
+    {
+      "id": "blog_slug_getstaticpaths",
+      "label": "getStaticPaths()",
+      "file_type": "code",
+      "source_file": "src/pages/blog/[...slug].astro",
+      "source_location": "L10"
+    },
+    {
+      "id": "blog_slug_post",
+      "label": "{ post }",
+      "file_type": "code",
+      "source_file": "src/pages/blog/[...slug].astro",
+      "source_location": "L15"
+    },
+    {
+      "id": "blog_slug_index",
+      "label": "index",
+      "file_type": "code",
+      "source_file": "src/pages/blog/[...slug].astro",
+      "source_location": "L17"
+    },
+    {
+      "id": "blog_slug_related",
+      "label": "related",
+      "file_type": "code",
+      "source_file": "src/pages/blog/[...slug].astro",
+      "source_location": "L20"
+    },
+    {
+      "id": "blog_slug_toc",
+      "label": "toc",
+      "file_type": "code",
+      "source_file": "src/pages/blog/[...slug].astro",
+      "source_location": "L22"
+    },
+    {
+      "id": "blog_slug_jsonld",
+      "label": "jsonLd",
+      "file_type": "code",
+      "source_file": "src/pages/blog/[...slug].astro",
+      "source_location": "L24"
+    },
+    {
+      "id": "astro_content",
+      "label": "astro:content",
+      "file_type": "code",
+      "source_file": "astro:content",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "id": "components_breadcrumbs",
+      "label": "../../components/Breadcrumbs.astro",
+      "file_type": "code",
+      "source_file": "src/components/Breadcrumbs.astro",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "id": "components_postcard",
+      "label": "../../components/PostCard.astro",
+      "file_type": "code",
+      "source_file": "src/components/PostCard.astro",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "id": "layouts_baselayout",
+      "label": "../../layouts/BaseLayout.astro",
+      "file_type": "code",
+      "source_file": "src/layouts/BaseLayout.astro",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "id": "users_mufid_personal_projects_blogs_src_lib_seo",
+      "label": "../../lib/seo",
+      "file_type": "code",
+      "source_file": "src/lib/seo",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "id": "users_mufid_personal_projects_blogs_src_lib_posts",
+      "label": "../../lib/posts",
+      "file_type": "code",
+      "source_file": "src/lib/posts",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "id": "users_mufid_personal_projects_blogs_src_lib_site",
+      "label": "../../lib/site",
+      "file_type": "code",
+      "source_file": "src/lib/site",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "id": "blog_index",
+      "label": "index.astro",
+      "file_type": "code",
+      "source_file": "src/pages/blog/index.astro",
+      "source_location": "L1"
+    },
+    {
+      "id": "components_postcard",
+      "label": "../../components/PostCard.astro",
+      "file_type": "code",
+      "source_file": "src/components/PostCard.astro",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "id": "layouts_baselayout",
+      "label": "../../layouts/BaseLayout.astro",
+      "file_type": "code",
+      "source_file": "src/layouts/BaseLayout.astro",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "id": "users_mufid_personal_projects_blogs_src_lib_posts",
+      "label": "../../lib/posts",
+      "file_type": "code",
+      "source_file": "src/lib/posts",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "id": "categories_category",
+      "label": "[category].astro",
+      "file_type": "code",
+      "source_file": "src/pages/categories/[category].astro",
+      "source_location": "L1"
+    },
+    {
+      "id": "categories_category_getstaticpaths",
+      "label": "getStaticPaths()",
+      "file_type": "code",
+      "source_file": "src/pages/categories/[category].astro",
+      "source_location": "L6"
+    },
+    {
+      "id": "categories_category_posts",
+      "label": "posts",
+      "file_type": "code",
+      "source_file": "src/pages/categories/[category].astro",
+      "source_location": "L13"
+    },
+    {
+      "id": "components_postcard",
+      "label": "../../components/PostCard.astro",
+      "file_type": "code",
+      "source_file": "src/components/PostCard.astro",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "id": "layouts_baselayout",
+      "label": "../../layouts/BaseLayout.astro",
+      "file_type": "code",
+      "source_file": "src/layouts/BaseLayout.astro",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "id": "users_mufid_personal_projects_blogs_src_lib_posts",
+      "label": "../../lib/posts",
+      "file_type": "code",
+      "source_file": "src/lib/posts",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "id": "categories_index",
+      "label": "index.astro",
+      "file_type": "code",
+      "source_file": "src/pages/categories/index.astro",
+      "source_location": "L1"
+    },
+    {
+      "id": "layouts_baselayout",
+      "label": "../../layouts/BaseLayout.astro",
+      "file_type": "code",
+      "source_file": "src/layouts/BaseLayout.astro",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "id": "users_mufid_personal_projects_blogs_src_lib_posts",
+      "label": "../../lib/posts",
+      "file_type": "code",
+      "source_file": "src/lib/posts",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "id": "pages_index",
+      "label": "index.astro",
+      "file_type": "code",
+      "source_file": "src/pages/index.astro",
+      "source_location": "L1"
+    },
+    {
+      "id": "pages_index_featured",
+      "label": "featured",
+      "file_type": "code",
+      "source_file": "src/pages/index.astro",
+      "source_location": "L8"
+    },
+    {
+      "id": "pages_index_latest",
+      "label": "latest",
+      "file_type": "code",
+      "source_file": "src/pages/index.astro",
+      "source_location": "L9"
+    },
+    {
+      "id": "pages_index_counts",
+      "label": "counts",
+      "file_type": "code",
+      "source_file": "src/pages/index.astro",
+      "source_location": "L10"
+    },
+    {
+      "id": "components_postcard",
+      "label": "../components/PostCard.astro",
+      "file_type": "code",
+      "source_file": "src/components/PostCard.astro",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "id": "layouts_baselayout",
+      "label": "../layouts/BaseLayout.astro",
+      "file_type": "code",
+      "source_file": "src/layouts/BaseLayout.astro",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "id": "users_mufid_personal_projects_blogs_src_lib_posts",
+      "label": "../lib/posts",
+      "file_type": "code",
+      "source_file": "src/lib/posts",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "id": "users_mufid_personal_projects_blogs_src_lib_site",
+      "label": "../lib/site",
+      "file_type": "code",
+      "source_file": "src/lib/site",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "id": "pages_robots_txt",
+      "label": "robots.txt.ts",
+      "file_type": "code",
+      "source_file": "src/pages/robots.txt.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "pages_robots_txt_get",
+      "label": "GET()",
+      "file_type": "code",
+      "source_file": "src/pages/robots.txt.ts",
+      "source_location": "L4"
+    },
+    {
+      "id": "pages_rss_xml",
+      "label": "rss.xml.ts",
+      "file_type": "code",
+      "source_file": "src/pages/rss.xml.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "pages_rss_xml_get",
+      "label": "GET()",
+      "file_type": "code",
+      "source_file": "src/pages/rss.xml.ts",
+      "source_location": "L6"
+    },
+    {
+      "id": "pages_search",
+      "label": "search.astro",
+      "file_type": "code",
+      "source_file": "src/pages/search.astro",
+      "source_location": "L1"
+    },
+    {
+      "id": "pages_search_params",
+      "label": "params",
+      "file_type": "code",
+      "source_file": "src/pages/search.astro",
+      "source_location": "L22"
+    },
+    {
+      "id": "pages_search_render",
+      "label": "render()",
+      "file_type": "code",
+      "source_file": "src/pages/search.astro",
+      "source_location": "L24"
+    },
+    {
+      "id": "layouts_baselayout",
+      "label": "../layouts/BaseLayout.astro",
+      "file_type": "code",
+      "source_file": "src/layouts/BaseLayout.astro",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "id": "pages_search_json",
+      "label": "search.json.ts",
+      "file_type": "code",
+      "source_file": "src/pages/search.json.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "pages_search_json_get",
+      "label": "GET()",
+      "file_type": "code",
+      "source_file": "src/pages/search.json.ts",
+      "source_location": "L4"
+    },
+    {
+      "id": "tags_tag",
+      "label": "[tag].astro",
+      "file_type": "code",
+      "source_file": "src/pages/tags/[tag].astro",
+      "source_location": "L1"
+    },
+    {
+      "id": "tags_tag_getstaticpaths",
+      "label": "getStaticPaths()",
+      "file_type": "code",
+      "source_file": "src/pages/tags/[tag].astro",
+      "source_location": "L6"
+    },
+    {
+      "id": "tags_tag_posts",
+      "label": "posts",
+      "file_type": "code",
+      "source_file": "src/pages/tags/[tag].astro",
+      "source_location": "L13"
+    },
+    {
+      "id": "components_postcard",
+      "label": "../../components/PostCard.astro",
+      "file_type": "code",
+      "source_file": "src/components/PostCard.astro",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "id": "layouts_baselayout",
+      "label": "../../layouts/BaseLayout.astro",
+      "file_type": "code",
+      "source_file": "src/layouts/BaseLayout.astro",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "id": "users_mufid_personal_projects_blogs_src_lib_posts",
+      "label": "../../lib/posts",
+      "file_type": "code",
+      "source_file": "src/lib/posts",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "id": "tags_index",
+      "label": "index.astro",
+      "file_type": "code",
+      "source_file": "src/pages/tags/index.astro",
+      "source_location": "L1"
+    },
+    {
+      "id": "layouts_baselayout",
+      "label": "../../layouts/BaseLayout.astro",
+      "file_type": "code",
+      "source_file": "src/layouts/BaseLayout.astro",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "id": "users_mufid_personal_projects_blogs_src_lib_posts",
+      "label": "../../lib/posts",
+      "file_type": "code",
+      "source_file": "src/lib/posts",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "id": "tsconfig",
+      "label": "tsconfig.json",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L1"
+    },
+    {
+      "id": "tsconfig_extends",
+      "label": "extends",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L2"
+    },
+    {
+      "id": "tsconfig_compileroptions",
+      "label": "compilerOptions",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L3"
+    },
+    {
+      "id": "tsconfig_compileroptions_noimplicitany",
+      "label": "noImplicitAny",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L4"
+    },
+    {
+      "id": "site-nur-mufid-blog",
+      "label": "Nur Mufid Blog",
+      "type": "SITE",
+      "source_file": "package.json"
+    },
+    {
+      "id": "canonical-site-blog-nmrooms",
+      "label": "https://blog.nmrooms.biz.id",
+      "type": "SITE",
+      "source_file": "CONTEXT.md"
+    },
+    {
+      "id": "nur-mufid",
+      "label": "Nur Mufid",
+      "type": "PERSON",
+      "source_file": "CONTEXT.md"
+    },
+    {
+      "id": "personal-expert-blog",
+      "label": "Personal Expert Blog",
+      "type": "CONCEPT",
+      "source_file": "CONTEXT.md"
+    },
+    {
+      "id": "markdown-mdx-article",
+      "label": "Markdown/MDX Article",
+      "type": "CONCEPT",
+      "source_file": "CONTEXT.md"
+    },
+    {
+      "id": "static-search",
+      "label": "Static Search",
+      "type": "FEATURE",
+      "source_file": "CONTEXT.md"
+    },
+    {
+      "id": "no-comments-surface",
+      "label": "No Comments Surface",
+      "type": "DECISION",
+      "source_file": "CONTEXT.md"
+    },
+    {
+      "id": "no-newsletter-cta",
+      "label": "No Newsletter CTA",
+      "type": "DECISION",
+      "source_file": "CONTEXT.md"
+    },
+    {
+      "id": "rss-subscription",
+      "label": "RSS Subscription",
+      "type": "FEATURE",
+      "source_file": "CONTEXT.md"
+    },
+    {
+      "id": "article-url-clean-slugs",
+      "label": "Clean Article URLs",
+      "type": "DECISION",
+      "source_file": "CONTEXT.md"
+    },
+    {
+      "id": "theme-mode",
+      "label": "Theme Mode",
+      "type": "FEATURE",
+      "source_file": "CONTEXT.md"
+    },
+    {
+      "id": "build-time-syntax-highlighting",
+      "label": "Build-Time Syntax Highlighting",
+      "type": "FEATURE",
+      "source_file": "CONTEXT.md"
+    },
+    {
+      "id": "automatic-article-navigation",
+      "label": "Automatic Article Navigation",
+      "type": "FEATURE",
+      "source_file": "CONTEXT.md"
+    },
+    {
+      "id": "astro",
+      "label": "Astro",
+      "type": "CONCEPT",
+      "source_file": "package.json"
+    },
+    {
+      "id": "astro-mdx",
+      "label": "@astrojs/mdx",
+      "type": "FEATURE",
+      "source_file": "package.json"
+    },
+    {
+      "id": "astro-rss",
+      "label": "@astrojs/rss",
+      "type": "FEATURE",
+      "source_file": "package.json"
+    },
+    {
+      "id": "astro-sitemap",
+      "label": "@astrojs/sitemap",
+      "type": "FEATURE",
+      "source_file": "package.json"
+    },
+    {
+      "id": "reading-time",
+      "label": "reading-time",
+      "type": "FEATURE",
+      "source_file": "package.json"
+    },
+    {
+      "id": "rehype-slug",
+      "label": "rehype-slug",
+      "type": "FEATURE",
+      "source_file": "package.json"
+    },
+    {
+      "id": "rehype-autolink-headings",
+      "label": "rehype-autolink-headings",
+      "type": "FEATURE",
+      "source_file": "package.json"
+    },
+    {
+      "id": "typescript",
+      "label": "TypeScript",
+      "type": "CONCEPT",
+      "source_file": "package.json"
+    },
+    {
+      "id": "doc-astro-seo-guide",
+      "label": "Astro SEO Guide for Technical Blogs",
+      "type": "DOCUMENT",
+      "source_file": "src/content/blog/astro-seo-guide.md"
+    },
+    {
+      "id": "doc-kubernetes-notes",
+      "label": "Kubernetes Notes for Practical Operators",
+      "type": "DOCUMENT",
+      "source_file": "src/content/blog/kubernetes-notes.md"
+    },
+    {
+      "id": "doc-linux-productivity",
+      "label": "Linux Productivity Habits That Compound",
+      "type": "DOCUMENT",
+      "source_file": "src/content/blog/linux-productivity.md"
+    },
+    {
+      "id": "seo",
+      "label": "SEO",
+      "type": "CONCEPT",
+      "source_file": "src/content/blog/astro-seo-guide.md"
+    },
+    {
+      "id": "web-performance",
+      "label": "Web Performance",
+      "type": "CONCEPT",
+      "source_file": "src/content/blog/astro-seo-guide.md"
+    },
+    {
+      "id": "canonical-urls",
+      "label": "Canonical URLs",
+      "type": "CONCEPT",
+      "source_file": "src/content/blog/astro-seo-guide.md"
+    },
+    {
+      "id": "structured-data",
+      "label": "Structured Data",
+      "type": "CONCEPT",
+      "source_file": "src/content/blog/astro-seo-guide.md"
+    },
+    {
+      "id": "blogposting-schema",
+      "label": "BlogPosting Schema",
+      "type": "CONCEPT",
+      "source_file": "src/content/blog/astro-seo-guide.md"
+    },
+    {
+      "id": "breadcrumblist-schema",
+      "label": "BreadcrumbList Schema",
+      "type": "CONCEPT",
+      "source_file": "src/content/blog/astro-seo-guide.md"
+    },
+    {
+      "id": "build-time-rendering",
+      "label": "Build-Time Rendering",
+      "type": "FEATURE",
+      "source_file": "src/content/blog/astro-seo-guide.md"
+    },
+    {
+      "id": "local-assets",
+      "label": "Local Assets",
+      "type": "FEATURE",
+      "source_file": "src/content/blog/astro-seo-guide.md"
+    },
+    {
+      "id": "kubernetes",
+      "label": "Kubernetes",
+      "type": "CONCEPT",
+      "source_file": "src/content/blog/kubernetes-notes.md"
+    },
+    {
+      "id": "devops",
+      "label": "DevOps",
+      "type": "CONCEPT",
+      "source_file": "src/content/blog/kubernetes-notes.md"
+    },
+    {
+      "id": "containers",
+      "label": "Containers",
+      "type": "CONCEPT",
+      "source_file": "src/content/blog/kubernetes-notes.md"
+    },
+    {
+      "id": "kubernetes-workloads",
+      "label": "Kubernetes Workloads",
+      "type": "CONCEPT",
+      "source_file": "src/content/blog/kubernetes-notes.md"
+    },
+    {
+      "id": "kubernetes-services",
+      "label": "Kubernetes Services",
+      "type": "CONCEPT",
+      "source_file": "src/content/blog/kubernetes-notes.md"
+    },
+    {
+      "id": "kubernetes-manifests",
+      "label": "Kubernetes Manifests",
+      "type": "CONCEPT",
+      "source_file": "src/content/blog/kubernetes-notes.md"
+    },
+    {
+      "id": "linux",
+      "label": "Linux",
+      "type": "CONCEPT",
+      "source_file": "src/content/blog/linux-productivity.md"
+    },
+    {
+      "id": "productivity",
+      "label": "Productivity",
+      "type": "CONCEPT",
+      "source_file": "src/content/blog/linux-productivity.md"
+    },
+    {
+      "id": "cli",
+      "label": "CLI",
+      "type": "CONCEPT",
+      "source_file": "src/content/blog/linux-productivity.md"
+    },
+    {
+      "id": "terminal-tools",
+      "label": "Terminal Tools",
+      "type": "CONCEPT",
+      "source_file": "src/content/blog/linux-productivity.md"
+    },
+    {
+      "id": "repeatable-commands",
+      "label": "Repeatable Commands",
+      "type": "CONCEPT",
+      "source_file": "src/content/blog/linux-productivity.md"
+    },
+    {
+      "id": "readable-aliases",
+      "label": "Readable Aliases",
+      "type": "DECISION",
+      "source_file": "src/content/blog/linux-productivity.md"
+    },
+    {
+      "id": "favicon-nm",
+      "label": "NM Favicon",
+      "type": "FEATURE",
+      "source_file": "public/favicon.svg"
+    }
+  ],
+  "edges": [
+    {
+      "source": "collections_blog_schema",
+      "target": "collections_blog_schema_schema",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".astro/collections/blog.schema.json",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "collections_blog_schema",
+      "target": "collections_blog_schema_type",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".astro/collections/blog.schema.json",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "collections_blog_schema",
+      "target": "collections_blog_schema_properties",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".astro/collections/blog.schema.json",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "collections_blog_schema_properties",
+      "target": "collections_blog_schema_properties_title",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".astro/collections/blog.schema.json",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "collections_blog_schema_properties_title",
+      "target": "collections_blog_schema_title_type",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".astro/collections/blog.schema.json",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "collections_blog_schema_properties",
+      "target": "collections_blog_schema_properties_description",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".astro/collections/blog.schema.json",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "collections_blog_schema_properties_description",
+      "target": "collections_blog_schema_description_type",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".astro/collections/blog.schema.json",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "collections_blog_schema_properties_description",
+      "target": "collections_blog_schema_description_maxlength",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".astro/collections/blog.schema.json",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "collections_blog_schema_properties",
+      "target": "collections_blog_schema_properties_publisheddate",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".astro/collections/blog.schema.json",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "collections_blog_schema_properties_publisheddate",
+      "target": "collections_blog_schema_publisheddate_type",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".astro/collections/blog.schema.json",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "collections_blog_schema_properties_publisheddate",
+      "target": "collections_blog_schema_publisheddate_format",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".astro/collections/blog.schema.json",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "collections_blog_schema_properties",
+      "target": "collections_blog_schema_properties_updateddate",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".astro/collections/blog.schema.json",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "collections_blog_schema_properties_updateddate",
+      "target": "collections_blog_schema_updateddate_type",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".astro/collections/blog.schema.json",
+      "source_location": "L17",
+      "weight": 1.0
+    },
+    {
+      "source": "collections_blog_schema_properties_updateddate",
+      "target": "collections_blog_schema_updateddate_format",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".astro/collections/blog.schema.json",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "collections_blog_schema_properties",
+      "target": "collections_blog_schema_properties_author",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".astro/collections/blog.schema.json",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "collections_blog_schema_properties_author",
+      "target": "collections_blog_schema_author_default",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".astro/collections/blog.schema.json",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "collections_blog_schema_properties_author",
+      "target": "collections_blog_schema_author_type",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".astro/collections/blog.schema.json",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "collections_blog_schema_properties",
+      "target": "collections_blog_schema_properties_tags",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".astro/collections/blog.schema.json",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "collections_blog_schema_properties_tags",
+      "target": "collections_blog_schema_tags_default",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".astro/collections/blog.schema.json",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "collections_blog_schema_properties_tags",
+      "target": "collections_blog_schema_tags_type",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".astro/collections/blog.schema.json",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "collections_blog_schema_properties_tags",
+      "target": "collections_blog_schema_tags_items",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".astro/collections/blog.schema.json",
+      "source_location": "L27",
+      "weight": 1.0
+    },
+    {
+      "source": "collections_blog_schema_tags_items",
+      "target": "collections_blog_schema_items_type",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".astro/collections/blog.schema.json",
+      "source_location": "L28",
+      "weight": 1.0
+    },
+    {
+      "source": "collections_blog_schema_properties",
+      "target": "collections_blog_schema_properties_category",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".astro/collections/blog.schema.json",
+      "source_location": "L31",
+      "weight": 1.0
+    },
+    {
+      "source": "collections_blog_schema_properties_category",
+      "target": "collections_blog_schema_category_type",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".astro/collections/blog.schema.json",
+      "source_location": "L32",
+      "weight": 1.0
+    },
+    {
+      "source": "collections_blog_schema_properties",
+      "target": "collections_blog_schema_properties_coverimage",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".astro/collections/blog.schema.json",
+      "source_location": "L34",
+      "weight": 1.0
+    },
+    {
+      "source": "collections_blog_schema_properties_coverimage",
+      "target": "collections_blog_schema_coverimage_type",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".astro/collections/blog.schema.json",
+      "source_location": "L35",
+      "weight": 1.0
+    },
+    {
+      "source": "collections_blog_schema_properties",
+      "target": "collections_blog_schema_properties_draft",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".astro/collections/blog.schema.json",
+      "source_location": "L37",
+      "weight": 1.0
+    },
+    {
+      "source": "collections_blog_schema_properties_draft",
+      "target": "collections_blog_schema_draft_default",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".astro/collections/blog.schema.json",
+      "source_location": "L38",
+      "weight": 1.0
+    },
+    {
+      "source": "collections_blog_schema_properties_draft",
+      "target": "collections_blog_schema_draft_type",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".astro/collections/blog.schema.json",
+      "source_location": "L39",
+      "weight": 1.0
+    },
+    {
+      "source": "collections_blog_schema_properties",
+      "target": "collections_blog_schema_properties_featured",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".astro/collections/blog.schema.json",
+      "source_location": "L41",
+      "weight": 1.0
+    },
+    {
+      "source": "collections_blog_schema_properties_featured",
+      "target": "collections_blog_schema_featured_default",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".astro/collections/blog.schema.json",
+      "source_location": "L42",
+      "weight": 1.0
+    },
+    {
+      "source": "collections_blog_schema_properties_featured",
+      "target": "collections_blog_schema_featured_type",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".astro/collections/blog.schema.json",
+      "source_location": "L43",
+      "weight": 1.0
+    },
+    {
+      "source": "collections_blog_schema_properties",
+      "target": "collections_blog_schema_properties_canonicalurl",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".astro/collections/blog.schema.json",
+      "source_location": "L45",
+      "weight": 1.0
+    },
+    {
+      "source": "collections_blog_schema_properties_canonicalurl",
+      "target": "collections_blog_schema_canonicalurl_type",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".astro/collections/blog.schema.json",
+      "source_location": "L46",
+      "weight": 1.0
+    },
+    {
+      "source": "collections_blog_schema_properties_canonicalurl",
+      "target": "collections_blog_schema_canonicalurl_format",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".astro/collections/blog.schema.json",
+      "source_location": "L47",
+      "weight": 1.0
+    },
+    {
+      "source": "collections_blog_schema_properties",
+      "target": "collections_blog_schema_properties_schema",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".astro/collections/blog.schema.json",
+      "source_location": "L49",
+      "weight": 1.0
+    },
+    {
+      "source": "collections_blog_schema_properties_schema",
+      "target": "collections_blog_schema_schema_type",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".astro/collections/blog.schema.json",
+      "source_location": "L50",
+      "weight": 1.0
+    },
+    {
+      "source": "collections_blog_schema",
+      "target": "collections_blog_schema_required",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".astro/collections/blog.schema.json",
+      "source_location": "L53",
+      "weight": 1.0
+    },
+    {
+      "source": "collections_blog_schema_required",
+      "target": "ref_title",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": ".astro/collections/blog.schema.json",
+      "source_location": "L53",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "collections_blog_schema_required",
+      "target": "ref_description",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": ".astro/collections/blog.schema.json",
+      "source_location": "L53",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "collections_blog_schema_required",
+      "target": "ref_publisheddate",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": ".astro/collections/blog.schema.json",
+      "source_location": "L53",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "collections_blog_schema_required",
+      "target": "ref_category",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": ".astro/collections/blog.schema.json",
+      "source_location": "L53",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "astro_content_d",
+      "target": "astro_content_d_render",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".astro/content.d.ts",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "astro_content_d",
+      "target": "astro_content_d_renderresult",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".astro/content.d.ts",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "astro_content_d",
+      "target": "astro_content_d_render",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".astro/content.d.ts",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "astro_content_d",
+      "target": "astro_content_d_renderedcontent",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".astro/content.d.ts",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "astro_content_d",
+      "target": "astro_content_d_flatten",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".astro/content.d.ts",
+      "source_location": "L30",
+      "weight": 1.0
+    },
+    {
+      "source": "astro_content_d",
+      "target": "astro_content_d_collectionkey",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".astro/content.d.ts",
+      "source_location": "L32",
+      "weight": 1.0
+    },
+    {
+      "source": "astro_content_d",
+      "target": "astro_content_d_collectionentry",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".astro/content.d.ts",
+      "source_location": "L33",
+      "weight": 1.0
+    },
+    {
+      "source": "astro_content_d",
+      "target": "astro_content_d_allvaluesof",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".astro/content.d.ts",
+      "source_location": "L35",
+      "weight": 1.0
+    },
+    {
+      "source": "astro_content_d",
+      "target": "astro_content_d_referencedataentry",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".astro/content.d.ts",
+      "source_location": "L37",
+      "weight": 1.0
+    },
+    {
+      "source": "astro_content_d",
+      "target": "astro_content_d_referenceliveentry",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".astro/content.d.ts",
+      "source_location": "L45",
+      "weight": 1.0
+    },
+    {
+      "source": "astro_content_d",
+      "target": "astro_content_d_inferentryschema",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".astro/content.d.ts",
+      "source_location": "L126",
+      "weight": 1.0
+    },
+    {
+      "source": "astro_content_d",
+      "target": "astro_content_d_extractloaderconfig",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".astro/content.d.ts",
+      "source_location": "L129",
+      "weight": 1.0
+    },
+    {
+      "source": "astro_content_d",
+      "target": "astro_content_d_inferloaderschema",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".astro/content.d.ts",
+      "source_location": "L130",
+      "weight": 1.0
+    },
+    {
+      "source": "astro_content_d",
+      "target": "astro_content_d_dataentrymap",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".astro/content.d.ts",
+      "source_location": "L137",
+      "weight": 1.0
+    },
+    {
+      "source": "astro_content_d",
+      "target": "astro_content_d_extractloadertypes",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".astro/content.d.ts",
+      "source_location": "L149",
+      "weight": 1.0
+    },
+    {
+      "source": "astro_content_d",
+      "target": "astro_content_d_extractentryfiltertype",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".astro/content.d.ts",
+      "source_location": "L157",
+      "weight": 1.0
+    },
+    {
+      "source": "astro_content_d",
+      "target": "astro_content_d_extractcollectionfiltertype",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".astro/content.d.ts",
+      "source_location": "L158",
+      "weight": 1.0
+    },
+    {
+      "source": "astro_content_d",
+      "target": "astro_content_d_extracterrortype",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".astro/content.d.ts",
+      "source_location": "L159",
+      "weight": 1.0
+    },
+    {
+      "source": "astro_content_d",
+      "target": "astro_content_d_extractdatatype",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".astro/content.d.ts",
+      "source_location": "L160",
+      "weight": 1.0
+    },
+    {
+      "source": "astro_content_d",
+      "target": "astro_content_d_liveloaderdatatype",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".astro/content.d.ts",
+      "source_location": "L162",
+      "weight": 1.0
+    },
+    {
+      "source": "astro_content_d",
+      "target": "astro_content_d_liveloaderentryfiltertype",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".astro/content.d.ts",
+      "source_location": "L168",
+      "weight": 1.0
+    },
+    {
+      "source": "astro_content_d",
+      "target": "astro_content_d_liveloadercollectionfiltertype",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".astro/content.d.ts",
+      "source_location": "L170",
+      "weight": 1.0
+    },
+    {
+      "source": "astro_content_d",
+      "target": "astro_content_d_liveloadererrortype",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".astro/content.d.ts",
+      "source_location": "L172",
+      "weight": 1.0
+    },
+    {
+      "source": "astro_content_d",
+      "target": "astro_content_d_contentconfig",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".astro/content.d.ts",
+      "source_location": "L176",
+      "weight": 1.0
+    },
+    {
+      "source": "astro_content_d",
+      "target": "astro_content_d_livecontentconfig",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".astro/content.d.ts",
+      "source_location": "L177",
+      "weight": 1.0
+    },
+    {
+      "source": "astro_config",
+      "target": "mdx",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "astro.config.mjs",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "astro_config",
+      "target": "markdown_remark",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "astro.config.mjs",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "astro_config",
+      "target": "sitemap",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "astro.config.mjs",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "astro_config",
+      "target": "config",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "astro.config.mjs",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "astro_config",
+      "target": "rehype_autolink_headings",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "astro.config.mjs",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "astro_config",
+      "target": "rehype_slug",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "astro.config.mjs",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "package",
+      "target": "package_name",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "package",
+      "target": "package_version",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "package",
+      "target": "package_description",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "package",
+      "target": "package_type",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "package",
+      "target": "package_scripts",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "package_scripts",
+      "target": "package_scripts_dev",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "package_scripts",
+      "target": "package_scripts_build",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "package_scripts",
+      "target": "package_scripts_preview",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "package_scripts",
+      "target": "package_scripts_astro",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "package",
+      "target": "package_keywords",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "package_keywords",
+      "target": "ref_astro",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L12",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "package_keywords",
+      "target": "ref_blog",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L12",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "package_keywords",
+      "target": "ref_seo",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L12",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "package",
+      "target": "package_author",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L17",
+      "weight": 1.0
+    },
+    {
+      "source": "package",
+      "target": "package_license",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "package",
+      "target": "package_dependencies",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "package_dependencies",
+      "target": "package_dependencies_astrojs_mdx",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "package_dependencies_astrojs_mdx",
+      "target": "astrojs_mdx",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L20",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "package_dependencies",
+      "target": "package_dependencies_astrojs_rss",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "package_dependencies_astrojs_rss",
+      "target": "astrojs_rss",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L21",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "package_dependencies",
+      "target": "package_dependencies_astrojs_sitemap",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "package_dependencies_astrojs_sitemap",
+      "target": "astrojs_sitemap",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L22",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "package_dependencies",
+      "target": "package_dependencies_astro",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
+      "source": "package_dependencies_astro",
+      "target": "astro",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L23",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "package_dependencies",
+      "target": "package_dependencies_reading_time",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "package_dependencies_reading_time",
+      "target": "reading_time",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L24",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "package_dependencies",
+      "target": "package_dependencies_rehype_autolink_headings",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "package_dependencies_rehype_autolink_headings",
+      "target": "rehype_autolink_headings",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L25",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "package_dependencies",
+      "target": "package_dependencies_rehype_slug",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "package_dependencies_rehype_slug",
+      "target": "rehype_slug",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L26",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "package",
+      "target": "package_devdependencies",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L28",
+      "weight": 1.0
+    },
+    {
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_astrojs_check",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L29",
+      "weight": 1.0
+    },
+    {
+      "source": "package_devdependencies_astrojs_check",
+      "target": "astrojs_check",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L29",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_typescript",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L30",
+      "weight": 1.0
+    },
+    {
+      "source": "package_devdependencies_typescript",
+      "target": "typescript",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L30",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "components_footer",
+      "target": "users_mufid_personal_projects_blogs_src_lib_site",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Footer.astro"
+    },
+    {
+      "source": "components_header",
+      "target": "users_mufid_personal_projects_blogs_src_lib_site",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Header.astro"
+    },
+    {
+      "source": "components_postcard",
+      "target": "lib_posts",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/PostCard.astro",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "components_postcard",
+      "target": "lib_posts_getreadingtime",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/PostCard.astro",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "components_postcard",
+      "target": "lib_posts_posturl",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/PostCard.astro",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "components_postcard",
+      "target": "users_mufid_personal_projects_blogs_src_lib_posts",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/PostCard.astro"
+    },
+    {
+      "source": "components_postcard",
+      "target": "users_mufid_personal_projects_blogs_src_lib_posts",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/PostCard.astro"
+    },
+    {
+      "source": "src_content_config",
+      "target": "astro_content",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/content.config.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_content_config",
+      "target": "loaders",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/content.config.ts",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "src_content_config",
+      "target": "zod",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/content.config.ts",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_content_config",
+      "target": "src_content_config_blog",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/content.config.ts",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "src_content_config",
+      "target": "src_content_config_collections",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/content.config.ts",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "src_env_d",
+      "target": "src_env_d_importmetaenv",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/env.d.ts",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_env_d",
+      "target": "src_env_d_importmeta",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/env.d.ts",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "layouts_baselayout",
+      "target": "components_footer",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/layouts/BaseLayout.astro",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "layouts_baselayout",
+      "target": "lib_seo",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/layouts/BaseLayout.astro",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "layouts_baselayout",
+      "target": "lib_seo_absoluteurl",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/layouts/BaseLayout.astro",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "layouts_baselayout",
+      "target": "lib_seo_personjsonld",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/layouts/BaseLayout.astro",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "layouts_baselayout",
+      "target": "lib_seo_websitejsonld",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/layouts/BaseLayout.astro",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "layouts_baselayout",
+      "target": "lib_site",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/layouts/BaseLayout.astro",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "layouts_baselayout",
+      "target": "lib_site_site",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/layouts/BaseLayout.astro",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "layouts_baselayout",
+      "target": "users_mufid_personal_projects_blogs_src_styles_global_css",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/layouts/BaseLayout.astro",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "layouts_baselayout",
+      "target": "components_header",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/layouts/BaseLayout.astro"
+    },
+    {
+      "source": "layouts_baselayout",
+      "target": "components_footer",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/layouts/BaseLayout.astro"
+    },
+    {
+      "source": "layouts_baselayout",
+      "target": "users_mufid_personal_projects_blogs_src_lib_seo",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/layouts/BaseLayout.astro"
+    },
+    {
+      "source": "layouts_baselayout",
+      "target": "users_mufid_personal_projects_blogs_src_lib_site",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/layouts/BaseLayout.astro"
+    },
+    {
+      "source": "layouts_baselayout",
+      "target": "users_mufid_personal_projects_blogs_src_styles_global_css",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/layouts/BaseLayout.astro"
+    },
+    {
+      "source": "lib_pagination",
+      "target": "lib_pagination_paginate",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/pagination.ts",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_posts",
+      "target": "astro_content",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/posts.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_posts",
+      "target": "reading_time",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/posts.ts",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_posts",
+      "target": "lib_posts_blogpost",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/posts.ts",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_posts",
+      "target": "lib_posts_slugify",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/posts.ts",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_posts",
+      "target": "lib_posts_posturl",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/posts.ts",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_posts",
+      "target": "lib_posts_getposts",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/posts.ts",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_posts",
+      "target": "lib_posts_getreadingtime",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/posts.ts",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_posts",
+      "target": "lib_posts_getrelatedposts",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/posts.ts",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_seo",
+      "target": "lib_site",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/seo.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_seo",
+      "target": "lib_site_site",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/seo.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_seo",
+      "target": "lib_seo_absoluteurl",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/seo.ts",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_seo",
+      "target": "lib_seo_personjsonld",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/seo.ts",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_seo",
+      "target": "lib_seo_websitejsonld",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/seo.ts",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_site",
+      "target": "lib_site_site",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/site.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_site",
+      "target": "lib_site_categories",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/site.ts",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_404",
+      "target": "layouts_baselayout",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/404.astro"
+    },
+    {
+      "source": "pages_about",
+      "target": "layouts_baselayout",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/about.astro"
+    },
+    {
+      "source": "pages_archive",
+      "target": "lib_posts",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/archive.astro",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_archive",
+      "target": "lib_posts_getposts",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/archive.astro",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_archive",
+      "target": "lib_posts_posturl",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/archive.astro",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_archive",
+      "target": "layouts_baselayout",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/archive.astro"
+    },
+    {
+      "source": "pages_archive",
+      "target": "users_mufid_personal_projects_blogs_src_lib_posts",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/archive.astro"
+    },
+    {
+      "source": "blog_slug",
+      "target": "components_breadcrumbs",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/blog/[...slug].astro",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "blog_slug",
+      "target": "components_postcard",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/blog/[...slug].astro",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "blog_slug",
+      "target": "layouts_baselayout",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/blog/[...slug].astro",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "blog_slug",
+      "target": "lib_seo",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/blog/[...slug].astro",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "blog_slug",
+      "target": "lib_seo_absoluteurl",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/blog/[...slug].astro",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "blog_slug",
+      "target": "lib_posts",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/blog/[...slug].astro",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "blog_slug",
+      "target": "lib_posts_getposts",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/blog/[...slug].astro",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "blog_slug",
+      "target": "lib_posts_getreadingtime",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/blog/[...slug].astro",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "blog_slug",
+      "target": "lib_posts_getrelatedposts",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/blog/[...slug].astro",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "blog_slug",
+      "target": "lib_posts_posturl",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/blog/[...slug].astro",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "blog_slug",
+      "target": "lib_posts_blogpost",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/blog/[...slug].astro",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "blog_slug",
+      "target": "lib_site",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/blog/[...slug].astro",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "blog_slug",
+      "target": "lib_site_site",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/blog/[...slug].astro",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "blog_slug",
+      "target": "blog_slug_getstaticpaths",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/blog/[...slug].astro",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "blog_slug",
+      "target": "blog_slug_post",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/blog/[...slug].astro",
+      "source_location": "L15",
+      "weight": 1.0
+    },
+    {
+      "source": "blog_slug",
+      "target": "blog_slug_index",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/blog/[...slug].astro",
+      "source_location": "L17",
+      "weight": 1.0
+    },
+    {
+      "source": "blog_slug",
+      "target": "blog_slug_related",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/blog/[...slug].astro",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "blog_slug",
+      "target": "blog_slug_toc",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/blog/[...slug].astro",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "blog_slug",
+      "target": "blog_slug_jsonld",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/blog/[...slug].astro",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "blog_slug",
+      "target": "astro_content",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/blog/[...slug].astro"
+    },
+    {
+      "source": "blog_slug",
+      "target": "components_breadcrumbs",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/blog/[...slug].astro"
+    },
+    {
+      "source": "blog_slug",
+      "target": "components_postcard",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/blog/[...slug].astro"
+    },
+    {
+      "source": "blog_slug",
+      "target": "layouts_baselayout",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/blog/[...slug].astro"
+    },
+    {
+      "source": "blog_slug",
+      "target": "users_mufid_personal_projects_blogs_src_lib_seo",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/blog/[...slug].astro"
+    },
+    {
+      "source": "blog_slug",
+      "target": "users_mufid_personal_projects_blogs_src_lib_posts",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/blog/[...slug].astro"
+    },
+    {
+      "source": "blog_slug",
+      "target": "users_mufid_personal_projects_blogs_src_lib_site",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/blog/[...slug].astro"
+    },
+    {
+      "source": "blog_index",
+      "target": "layouts_baselayout",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/blog/index.astro",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "blog_index",
+      "target": "lib_posts",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/blog/index.astro",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "blog_index",
+      "target": "lib_posts_getposts",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/blog/index.astro",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "blog_index",
+      "target": "components_postcard",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/blog/index.astro"
+    },
+    {
+      "source": "blog_index",
+      "target": "layouts_baselayout",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/blog/index.astro"
+    },
+    {
+      "source": "blog_index",
+      "target": "users_mufid_personal_projects_blogs_src_lib_posts",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/blog/index.astro"
+    },
+    {
+      "source": "categories_category",
+      "target": "layouts_baselayout",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/categories/[category].astro",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "categories_category",
+      "target": "lib_posts",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/categories/[category].astro",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "categories_category",
+      "target": "lib_posts_getposts",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/categories/[category].astro",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "categories_category",
+      "target": "lib_posts_slugify",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/categories/[category].astro",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "categories_category",
+      "target": "categories_category_getstaticpaths",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/categories/[category].astro",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "categories_category",
+      "target": "categories_category_posts",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/categories/[category].astro",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "categories_category",
+      "target": "components_postcard",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/categories/[category].astro"
+    },
+    {
+      "source": "categories_category",
+      "target": "layouts_baselayout",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/categories/[category].astro"
+    },
+    {
+      "source": "categories_category",
+      "target": "users_mufid_personal_projects_blogs_src_lib_posts",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/categories/[category].astro"
+    },
+    {
+      "source": "categories_index",
+      "target": "lib_posts",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/categories/index.astro",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "categories_index",
+      "target": "lib_posts_getposts",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/categories/index.astro",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "categories_index",
+      "target": "lib_posts_slugify",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/categories/index.astro",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "categories_index",
+      "target": "layouts_baselayout",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/categories/index.astro"
+    },
+    {
+      "source": "categories_index",
+      "target": "users_mufid_personal_projects_blogs_src_lib_posts",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/categories/index.astro"
+    },
+    {
+      "source": "pages_index",
+      "target": "layouts_baselayout",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/index.astro",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_index",
+      "target": "lib_posts",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/index.astro",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_index",
+      "target": "lib_posts_getposts",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/index.astro",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_index",
+      "target": "lib_posts_slugify",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/index.astro",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_index",
+      "target": "lib_site",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/index.astro",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_index",
+      "target": "lib_site_categories",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/index.astro",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_index",
+      "target": "lib_site_site",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/index.astro",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_index",
+      "target": "pages_index_featured",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/index.astro",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_index",
+      "target": "pages_index_latest",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/index.astro",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_index",
+      "target": "pages_index_counts",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/index.astro",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_index",
+      "target": "components_postcard",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/index.astro"
+    },
+    {
+      "source": "pages_index",
+      "target": "layouts_baselayout",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/index.astro"
+    },
+    {
+      "source": "pages_index",
+      "target": "users_mufid_personal_projects_blogs_src_lib_posts",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/index.astro"
+    },
+    {
+      "source": "pages_index",
+      "target": "users_mufid_personal_projects_blogs_src_lib_site",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/index.astro"
+    },
+    {
+      "source": "pages_robots_txt",
+      "target": "astro",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/robots.txt.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_robots_txt",
+      "target": "lib_site",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/robots.txt.ts",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_robots_txt",
+      "target": "lib_site_site",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/robots.txt.ts",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_robots_txt",
+      "target": "pages_robots_txt_get",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/robots.txt.ts",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_rss_xml",
+      "target": "rss",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/rss.xml.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_rss_xml",
+      "target": "astro",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/rss.xml.ts",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_rss_xml",
+      "target": "lib_posts",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/rss.xml.ts",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_rss_xml",
+      "target": "lib_posts_getposts",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/rss.xml.ts",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_rss_xml",
+      "target": "lib_posts_posturl",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/rss.xml.ts",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_rss_xml",
+      "target": "lib_site",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/rss.xml.ts",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_rss_xml",
+      "target": "lib_site_site",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/rss.xml.ts",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_rss_xml",
+      "target": "pages_rss_xml_get",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/rss.xml.ts",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_search",
+      "target": "pages_search_params",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/search.astro",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_search",
+      "target": "pages_search_render",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/search.astro",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_search",
+      "target": "layouts_baselayout",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/search.astro"
+    },
+    {
+      "source": "pages_search_json",
+      "target": "astro",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/search.json.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_search_json",
+      "target": "lib_posts",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/search.json.ts",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_search_json",
+      "target": "lib_posts_getposts",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/search.json.ts",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_search_json",
+      "target": "lib_posts_posturl",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/search.json.ts",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_search_json",
+      "target": "pages_search_json_get",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/search.json.ts",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "tags_tag",
+      "target": "layouts_baselayout",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/tags/[tag].astro",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "tags_tag",
+      "target": "lib_posts",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/tags/[tag].astro",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "tags_tag",
+      "target": "lib_posts_getposts",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/tags/[tag].astro",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "tags_tag",
+      "target": "lib_posts_slugify",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/tags/[tag].astro",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "tags_tag",
+      "target": "tags_tag_getstaticpaths",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/tags/[tag].astro",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "tags_tag",
+      "target": "tags_tag_posts",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/tags/[tag].astro",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "tags_tag",
+      "target": "components_postcard",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/tags/[tag].astro"
+    },
+    {
+      "source": "tags_tag",
+      "target": "layouts_baselayout",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/tags/[tag].astro"
+    },
+    {
+      "source": "tags_tag",
+      "target": "users_mufid_personal_projects_blogs_src_lib_posts",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/tags/[tag].astro"
+    },
+    {
+      "source": "tags_index",
+      "target": "lib_posts",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/tags/index.astro",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "tags_index",
+      "target": "lib_posts_getposts",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/tags/index.astro",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "tags_index",
+      "target": "lib_posts_slugify",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/tags/index.astro",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "tags_index",
+      "target": "layouts_baselayout",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/tags/index.astro"
+    },
+    {
+      "source": "tags_index",
+      "target": "users_mufid_personal_projects_blogs_src_lib_posts",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/tags/index.astro"
+    },
+    {
+      "source": "tsconfig",
+      "target": "tsconfig_extends",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "tsconfig",
+      "target": "ref_astro_tsconfigs_strict",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "tsconfig",
+      "target": "tsconfig_compileroptions",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "tsconfig_compileroptions",
+      "target": "tsconfig_compileroptions_noimplicitany",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "categories_category_getstaticpaths",
+      "target": "lib_posts_getposts",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/pages/categories/[category].astro",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_rss_xml_get",
+      "target": "lib_posts_getposts",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/pages/rss.xml.ts",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_search_json_get",
+      "target": "lib_posts_getposts",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/pages/search.json.ts",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "tags_tag_getstaticpaths",
+      "target": "lib_posts_getposts",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/pages/tags/[tag].astro",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "site-nur-mufid-blog",
+      "target": "nur-mufid",
+      "source_file": "package.json",
+      "evidence": "\"author\": \"Nur Mufid\"",
+      "relation": "PUBLISHES",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "site-nur-mufid-blog",
+      "target": "astro",
+      "source_file": "package.json",
+      "evidence": "\"description\": \"Technical blog for Nur Mufid built with Astro.\"",
+      "relation": "USES",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "site-nur-mufid-blog",
+      "target": "astro-mdx",
+      "source_file": "package.json",
+      "evidence": "\"@astrojs/mdx\": \"^7.0.2\"",
+      "relation": "USES",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "site-nur-mufid-blog",
+      "target": "astro-rss",
+      "source_file": "package.json",
+      "evidence": "\"@astrojs/rss\": \"^4.0.19\"",
+      "relation": "USES",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "site-nur-mufid-blog",
+      "target": "astro-sitemap",
+      "source_file": "package.json",
+      "evidence": "\"@astrojs/sitemap\": \"^3.7.3\"",
+      "relation": "USES",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "site-nur-mufid-blog",
+      "target": "reading-time",
+      "source_file": "package.json",
+      "evidence": "\"reading-time\": \"^1.5.0\"",
+      "relation": "USES",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "site-nur-mufid-blog",
+      "target": "rehype-autolink-headings",
+      "source_file": "package.json",
+      "evidence": "\"rehype-autolink-headings\": \"^7.1.0\"",
+      "relation": "USES",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "site-nur-mufid-blog",
+      "target": "rehype-slug",
+      "source_file": "package.json",
+      "evidence": "\"rehype-slug\": \"^6.0.0\"",
+      "relation": "USES",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "site-nur-mufid-blog",
+      "target": "typescript",
+      "source_file": "package.json",
+      "evidence": "\"typescript\": \"^6.0.3\"",
+      "relation": "USES",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "canonical-site-blog-nmrooms",
+      "target": "site-nur-mufid-blog",
+      "source_file": "CONTEXT.md",
+      "evidence": "\"Canonical Site\": `https://blog.nmrooms.biz.id`, the original source for all articles and metadata.",
+      "relation": "CANONICAL_FOR",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "site-nur-mufid-blog",
+      "target": "nur-mufid",
+      "source_file": "CONTEXT.md",
+      "evidence": "\"Site Name\": `Nur Mufid`, the public name used in titles, RSS, Open Graph, and schema metadata.",
+      "relation": "BELONGS_TO",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "nur-mufid",
+      "target": "personal-expert-blog",
+      "source_file": "CONTEXT.md",
+      "evidence": "The site represents Nur Mufid as an individual expert, not a company publication or multi-author media site.",
+      "relation": "BELONGS_TO",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "site-nur-mufid-blog",
+      "target": "markdown-mdx-article",
+      "source_file": "CONTEXT.md",
+      "evidence": "A blog article authored as `.md` or `.mdx`; Markdown is the default, MDX is available for richer articles.",
+      "relation": "USES",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "site-nur-mufid-blog",
+      "target": "static-search",
+      "source_file": "CONTEXT.md",
+      "evidence": "a generated JSON index, not an external search service.",
+      "relation": "DECIDES",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "site-nur-mufid-blog",
+      "target": "no-comments-surface",
+      "source_file": "CONTEXT.md",
+      "evidence": "Article pages do not include comments or comments placeholders in version 1.",
+      "relation": "DECIDES",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "site-nur-mufid-blog",
+      "target": "no-newsletter-cta",
+      "source_file": "CONTEXT.md",
+      "evidence": "The launch site does not include newsletter signup UI; RSS is the subscription mechanism.",
+      "relation": "DECIDES",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "no-newsletter-cta",
+      "target": "rss-subscription",
+      "source_file": "CONTEXT.md",
+      "evidence": "RSS is the subscription mechanism.",
+      "relation": "USES",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "site-nur-mufid-blog",
+      "target": "article-url-clean-slugs",
+      "source_file": "CONTEXT.md",
+      "evidence": "Articles live at `/blog/{slug}/` with clean, stable, non-date-based slugs.",
+      "relation": "DECIDES",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "site-nur-mufid-blog",
+      "target": "theme-mode",
+      "source_file": "CONTEXT.md",
+      "evidence": "Light/dark presentation selected from system preference unless the reader manually persists a choice.",
+      "relation": "USES",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "site-nur-mufid-blog",
+      "target": "build-time-syntax-highlighting",
+      "source_file": "CONTEXT.md",
+      "evidence": "Code highlighting generated during the Astro build, with only a tiny client script for copying code.",
+      "relation": "USES",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "site-nur-mufid-blog",
+      "target": "automatic-article-navigation",
+      "source_file": "CONTEXT.md",
+      "evidence": "Article table of contents and heading links are inferred from headings, not maintained in frontmatter.",
+      "relation": "USES",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "doc-astro-seo-guide",
+      "target": "site-nur-mufid-blog",
+      "source_file": "src/content/blog/astro-seo-guide.md",
+      "evidence": "author: Nur Mufid",
+      "relation": "BELONGS_TO",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "doc-astro-seo-guide",
+      "target": "astro",
+      "source_file": "src/content/blog/astro-seo-guide.md",
+      "evidence": "tags: [Astro, SEO, Web Performance]",
+      "relation": "TAGS",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "doc-astro-seo-guide",
+      "target": "seo",
+      "source_file": "src/content/blog/astro-seo-guide.md",
+      "evidence": "tags: [Astro, SEO, Web Performance]",
+      "relation": "TAGS",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "doc-astro-seo-guide",
+      "target": "web-performance",
+      "source_file": "src/content/blog/astro-seo-guide.md",
+      "evidence": "tags: [Astro, SEO, Web Performance]",
+      "relation": "TAGS",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "doc-astro-seo-guide",
+      "target": "canonical-urls",
+      "source_file": "src/content/blog/astro-seo-guide.md",
+      "evidence": "Every article should have a title, description, canonical URL, publish date, updated date, tags, and category.",
+      "relation": "DESCRIBES",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "doc-astro-seo-guide",
+      "target": "structured-data",
+      "source_file": "src/content/blog/astro-seo-guide.md",
+      "evidence": "Use `BlogPosting` schema for articles and `BreadcrumbList` for article navigation.",
+      "relation": "DESCRIBES",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "structured-data",
+      "target": "blogposting-schema",
+      "source_file": "src/content/blog/astro-seo-guide.md",
+      "evidence": "Use `BlogPosting` schema for articles",
+      "relation": "USES",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "structured-data",
+      "target": "breadcrumblist-schema",
+      "source_file": "src/content/blog/astro-seo-guide.md",
+      "evidence": "and `BreadcrumbList` for article navigation.",
+      "relation": "USES",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "doc-astro-seo-guide",
+      "target": "build-time-rendering",
+      "source_file": "src/content/blog/astro-seo-guide.md",
+      "evidence": "Prefer build-time rendering, local assets, static search, and no client-side framework unless an article truly needs interactivity.",
+      "relation": "DESCRIBES",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "doc-astro-seo-guide",
+      "target": "local-assets",
+      "source_file": "src/content/blog/astro-seo-guide.md",
+      "evidence": "Prefer build-time rendering, local assets, static search",
+      "relation": "DESCRIBES",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "doc-astro-seo-guide",
+      "target": "static-search",
+      "source_file": "src/content/blog/astro-seo-guide.md",
+      "evidence": "Prefer build-time rendering, local assets, static search",
+      "relation": "DESCRIBES",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "doc-astro-seo-guide",
+      "target": "canonical-site-blog-nmrooms",
+      "source_file": "src/content/blog/astro-seo-guide.md",
+      "evidence": "new URL('/blog/astro-seo-guide/', 'https://blog.nmrooms.biz.id')",
+      "relation": "CANONICAL_FOR",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "doc-kubernetes-notes",
+      "target": "site-nur-mufid-blog",
+      "source_file": "src/content/blog/kubernetes-notes.md",
+      "evidence": "author: Nur Mufid",
+      "relation": "BELONGS_TO",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "doc-kubernetes-notes",
+      "target": "kubernetes",
+      "source_file": "src/content/blog/kubernetes-notes.md",
+      "evidence": "tags: [Kubernetes, DevOps, Containers]",
+      "relation": "TAGS",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "doc-kubernetes-notes",
+      "target": "devops",
+      "source_file": "src/content/blog/kubernetes-notes.md",
+      "evidence": "tags: [Kubernetes, DevOps, Containers]",
+      "relation": "TAGS",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "doc-kubernetes-notes",
+      "target": "containers",
+      "source_file": "src/content/blog/kubernetes-notes.md",
+      "evidence": "tags: [Kubernetes, DevOps, Containers]",
+      "relation": "TAGS",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "doc-kubernetes-notes",
+      "target": "kubernetes-workloads",
+      "source_file": "src/content/blog/kubernetes-notes.md",
+      "evidence": "Most Kubernetes debugging starts by asking what workload owns the failing pod.",
+      "relation": "DESCRIBES",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "doc-kubernetes-notes",
+      "target": "kubernetes-services",
+      "source_file": "src/content/blog/kubernetes-notes.md",
+      "evidence": "A service problem is often a selector, port, or readiness problem.",
+      "relation": "DESCRIBES",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "doc-kubernetes-notes",
+      "target": "kubernetes-manifests",
+      "source_file": "src/content/blog/kubernetes-notes.md",
+      "evidence": "Small manifests are easier to review, diff, and recover at 3am.",
+      "relation": "DESCRIBES",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "doc-linux-productivity",
+      "target": "site-nur-mufid-blog",
+      "source_file": "src/content/blog/linux-productivity.md",
+      "evidence": "author: Nur Mufid",
+      "relation": "BELONGS_TO",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "doc-linux-productivity",
+      "target": "linux",
+      "source_file": "src/content/blog/linux-productivity.md",
+      "evidence": "tags: [Linux, Productivity, CLI]",
+      "relation": "TAGS",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "doc-linux-productivity",
+      "target": "productivity",
+      "source_file": "src/content/blog/linux-productivity.md",
+      "evidence": "tags: [Linux, Productivity, CLI]",
+      "relation": "TAGS",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "doc-linux-productivity",
+      "target": "cli",
+      "source_file": "src/content/blog/linux-productivity.md",
+      "evidence": "tags: [Linux, Productivity, CLI]",
+      "relation": "TAGS",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "doc-linux-productivity",
+      "target": "terminal-tools",
+      "source_file": "src/content/blog/linux-productivity.md",
+      "evidence": "`grep`, `find`, `xargs`, `awk`, and shell history solve more daily problems than most new tools.",
+      "relation": "DESCRIBES",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "doc-linux-productivity",
+      "target": "repeatable-commands",
+      "source_file": "src/content/blog/linux-productivity.md",
+      "evidence": "If you run a command twice, consider saving it in a script, Makefile, or project README.",
+      "relation": "DESCRIBES",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "doc-linux-productivity",
+      "target": "readable-aliases",
+      "source_file": "src/content/blog/linux-productivity.md",
+      "evidence": "Aliases should remove typing, not hide meaning.",
+      "relation": "DESCRIBES",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "favicon-nm",
+      "target": "nur-mufid",
+      "source_file": "public/favicon.svg",
+      "evidence": "font-weight=\"700\" fill=\"white\">NM</text>",
+      "relation": "BELONGS_TO",
+      "confidence": "EXTRACTED"
+    }
+  ],
+  "hyperedges": [],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

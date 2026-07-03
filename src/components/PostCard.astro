@@ -1,0 +1,16 @@
+---
+import type { BlogPost } from '../lib/posts';
+import { getReadingTime, postUrl } from '../lib/posts';
+
+interface Props { post: BlogPost }
+const { post } = Astro.props;
+---
+<article class="post-card">
+  <div class="meta">
+    <time datetime={post.data.publishedDate.toISOString()}>{post.data.publishedDate.toLocaleDateString('en', { year: 'numeric', month: 'short', day: 'numeric' })}</time>
+    <span>{getReadingTime(post)}</span>
+  </div>
+  <h3><a href={postUrl(post)}>{post.data.title}</a></h3>
+  <p>{post.data.description}</p>
+  <p><a class="category-pill" href={`/categories/${post.data.category.toLowerCase().replaceAll(' ', '-')}/`}>{post.data.category}</a></p>
+</article>

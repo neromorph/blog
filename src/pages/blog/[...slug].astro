@@ -1,0 +1,77 @@
+---
+import { getCollection, render } from 'astro:content';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import PostCard from '../../components/PostCard.astro';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { absoluteUrl } from '../../lib/seo';
+import { getPosts, getReadingTime, getRelatedPosts, postUrl, type BlogPost } from '../../lib/posts';
+import { site } from '../../lib/site';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('blog', ({ data }) => !data.draft);
+  return posts.map((post) => ({ params: { slug: post.id }, props: { post } }));
+}
+
+const { post } = Astro.props as { post: BlogPost };
+const posts = await getPosts();
+const index = posts.findIndex((item) => item.id === post.id);
+const previous = posts[index + 1];
+const next = posts[index - 1];
+const related = getRelatedPosts(post, posts);
+const { Content, headings } = await render(post);
+const toc = headings.filter((heading) => heading.depth === 2 || heading.depth === 3);
+const canonical = post.data.canonicalURL ?? absoluteUrl(postUrl(post));
+const jsonLd = [{
+  '@context': 'https://schema.org',
+  '@type': 'BlogPosting',
+  headline: post.data.title,
+  description: post.data.description,
+  datePublished: post.data.publishedDate.toISOString(),
+  dateModified: (post.data.updatedDate ?? post.data.publishedDate).toISOString(),
+  author: { '@type': 'Person', name: post.data.author },
+  publisher: { '@type': 'Person', name: site.author },
+  mainEntityOfPage: canonical,
+}, {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: site.url },
+    { '@type': 'ListItem', position: 2, name: 'Articles', item: absoluteUrl('/blog/') },
+    { '@type': 'ListItem', position: 3, name: post.data.title, item: canonical },
+  ],
+}];
+---
+<BaseLayout title={post.data.title} description={post.data.description} canonical={canonical} image={post.data.coverImage} jsonLd={jsonLd}>
+  <article>
+    <header class="reading article-header">
+      <Breadcrumbs crumbs={[{ name: 'Articles', href: '/blog/' }, { name: post.data.title, href: postUrl(post) }]} />
+      <h1>{post.data.title}</h1>
+      <div class="meta">
+        <span>{post.data.author}</span>
+        <time datetime={post.data.publishedDate.toISOString()}>Published {post.data.publishedDate.toLocaleDateString('en', { year: 'numeric', month: 'long', day: 'numeric' })}</time>
+        {post.data.updatedDate && <time datetime={post.data.updatedDate.toISOString()}>Updated {post.data.updatedDate.toLocaleDateString('en', { year: 'numeric', month: 'long', day: 'numeric' })}</time>}
+        <span>{getReadingTime(post)}</span>
+      </div>
+      <p class="tags">{post.data.tags.map((tag) => <a class="tag" href={`/tags/${tag.toLowerCase().replaceAll(' ', '-')}/`}>{tag}</a>)}</p>
+    </header>
+
+    <div class="container article-layout section">
+      <div class="prose"><Content /></div>
+      {toc.length >= 3 && <aside class="toc" aria-label="Table of contents">
+        <strong>On this page</strong>
+        <ul>{toc.map((heading) => <li style={`margin-left:${(heading.depth - 2) * .75}rem`}><a href={`#${heading.slug}`}>{heading.text}</a></li>)}</ul>
+      </aside>}
+    </div>
+
+    <footer class="reading article-footer">
+      <div class="prev-next">
+        <div>{previous && <a href={postUrl(previous)}>← {previous.data.title}</a>}</div>
+        <div>{next && <a href={postUrl(next)}>{next.data.title} →</a>}</div>
+      </div>
+      {related.length > 0 && <section class="section">
+        <h2>Related articles</h2>
+        <div class="grid">{related.map((item) => <PostCard post={item} />)}</div>
+      </section>}
+    </footer>
+  </article>
+</BaseLayout>

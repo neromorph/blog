@@ -1,0 +1,411 @@
+{
+  "communities": {
+    "0": [
+      "collections_blog_schema",
+      "collections_blog_schema_author_default",
+      "collections_blog_schema_author_type",
+      "collections_blog_schema_canonicalurl_format",
+      "collections_blog_schema_canonicalurl_type",
+      "collections_blog_schema_category_type",
+      "collections_blog_schema_coverimage_type",
+      "collections_blog_schema_description_maxlength",
+      "collections_blog_schema_description_type",
+      "collections_blog_schema_draft_default",
+      "collections_blog_schema_draft_type",
+      "collections_blog_schema_featured_default",
+      "collections_blog_schema_featured_type",
+      "collections_blog_schema_properties",
+      "collections_blog_schema_properties_author",
+      "collections_blog_schema_properties_canonicalurl",
+      "collections_blog_schema_properties_category",
+      "collections_blog_schema_properties_coverimage",
+      "collections_blog_schema_properties_description",
+      "collections_blog_schema_properties_draft",
+      "collections_blog_schema_properties_featured",
+      "collections_blog_schema_properties_publisheddate",
+      "collections_blog_schema_properties_schema",
+      "collections_blog_schema_properties_title",
+      "collections_blog_schema_properties_updateddate",
+      "collections_blog_schema_publisheddate_format",
+      "collections_blog_schema_publisheddate_type",
+      "collections_blog_schema_required",
+      "collections_blog_schema_schema",
+      "collections_blog_schema_schema_type",
+      "collections_blog_schema_title_type",
+      "collections_blog_schema_type",
+      "collections_blog_schema_updateddate_format",
+      "collections_blog_schema_updateddate_type"
+    ],
+    "1": [
+      "article-url-clean-slugs",
+      "astro-mdx",
+      "astro-rss",
+      "astro-sitemap",
+      "automatic-article-navigation",
+      "blogposting-schema",
+      "breadcrumblist-schema",
+      "build-time-rendering",
+      "build-time-syntax-highlighting",
+      "canonical-site-blog-nmrooms",
+      "canonical-urls",
+      "doc-astro-seo-guide",
+      "favicon-nm",
+      "local-assets",
+      "markdown-mdx-article",
+      "no-comments-surface",
+      "no-newsletter-cta",
+      "nur-mufid",
+      "personal-expert-blog",
+      "rss-subscription",
+      "seo",
+      "site-nur-mufid-blog",
+      "static-search",
+      "structured-data",
+      "theme-mode",
+      "web-performance"
+    ],
+    "2": [
+      "astro_content_d",
+      "astro_content_d_allvaluesof",
+      "astro_content_d_collectionentry",
+      "astro_content_d_collectionkey",
+      "astro_content_d_contentconfig",
+      "astro_content_d_dataentrymap",
+      "astro_content_d_extractcollectionfiltertype",
+      "astro_content_d_extractdatatype",
+      "astro_content_d_extractentryfiltertype",
+      "astro_content_d_extracterrortype",
+      "astro_content_d_extractloaderconfig",
+      "astro_content_d_extractloadertypes",
+      "astro_content_d_flatten",
+      "astro_content_d_inferentryschema",
+      "astro_content_d_inferloaderschema",
+      "astro_content_d_livecontentconfig",
+      "astro_content_d_liveloadercollectionfiltertype",
+      "astro_content_d_liveloaderdatatype",
+      "astro_content_d_liveloaderentryfiltertype",
+      "astro_content_d_liveloadererrortype",
+      "astro_content_d_referencedataentry",
+      "astro_content_d_referenceliveentry",
+      "astro_content_d_render",
+      "astro_content_d_renderedcontent",
+      "astro_content_d_renderresult"
+    ],
+    "3": [
+      "blog_slug",
+      "blog_slug_getstaticpaths",
+      "blog_slug_index",
+      "blog_slug_jsonld",
+      "blog_slug_post",
+      "blog_slug_related",
+      "blog_slug_toc",
+      "components_breadcrumbs",
+      "components_footer",
+      "components_header",
+      "layouts_baselayout",
+      "lib_posts_blogpost",
+      "lib_posts_getrelatedposts",
+      "lib_seo",
+      "lib_seo_absoluteurl",
+      "lib_seo_personjsonld",
+      "lib_seo_websitejsonld",
+      "pages_404",
+      "pages_about",
+      "pages_search",
+      "pages_search_params",
+      "pages_search_render",
+      "users_mufid_personal_projects_blogs_src_lib_seo",
+      "users_mufid_personal_projects_blogs_src_lib_site",
+      "users_mufid_personal_projects_blogs_src_styles_global_css"
+    ],
+    "4": [
+      "blog_index",
+      "categories_category",
+      "categories_category_getstaticpaths",
+      "categories_category_posts",
+      "categories_index",
+      "components_postcard",
+      "lib_posts",
+      "lib_posts_getposts",
+      "lib_posts_getreadingtime",
+      "lib_posts_posturl",
+      "lib_posts_slugify",
+      "pages_archive",
+      "pages_search_json",
+      "pages_search_json_get",
+      "tags_index",
+      "tags_tag",
+      "tags_tag_getstaticpaths",
+      "tags_tag_posts",
+      "users_mufid_personal_projects_blogs_src_lib_posts"
+    ],
+    "5": [
+      "package",
+      "package_author",
+      "package_description",
+      "package_devdependencies",
+      "package_devdependencies_astrojs_check",
+      "package_devdependencies_typescript",
+      "package_keywords",
+      "package_license",
+      "package_name",
+      "package_scripts",
+      "package_scripts_astro",
+      "package_scripts_build",
+      "package_scripts_dev",
+      "package_scripts_preview",
+      "package_type",
+      "package_version",
+      "typescript"
+    ],
+    "6": [
+      "astro",
+      "lib_site",
+      "lib_site_categories",
+      "lib_site_site",
+      "pages_index",
+      "pages_index_counts",
+      "pages_index_featured",
+      "pages_index_latest",
+      "pages_robots_txt",
+      "pages_robots_txt_get",
+      "pages_rss_xml",
+      "pages_rss_xml_get"
+    ],
+    "7": [
+      "astro_config",
+      "package_dependencies",
+      "package_dependencies_astro",
+      "package_dependencies_astrojs_mdx",
+      "package_dependencies_astrojs_rss",
+      "package_dependencies_astrojs_sitemap",
+      "package_dependencies_reading_time",
+      "package_dependencies_rehype_autolink_headings",
+      "package_dependencies_rehype_slug",
+      "reading-time",
+      "rehype-autolink-headings",
+      "rehype-slug"
+    ],
+    "8": [
+      "cli",
+      "doc-linux-productivity",
+      "linux",
+      "productivity",
+      "readable-aliases",
+      "repeatable-commands",
+      "terminal-tools"
+    ],
+    "9": [
+      "containers",
+      "devops",
+      "doc-kubernetes-notes",
+      "kubernetes",
+      "kubernetes-manifests",
+      "kubernetes-services",
+      "kubernetes-workloads"
+    ],
+    "10": [
+      "collections_blog_schema_items_type",
+      "collections_blog_schema_properties_tags",
+      "collections_blog_schema_tags_default",
+      "collections_blog_schema_tags_items",
+      "collections_blog_schema_tags_type"
+    ],
+    "11": [
+      "astro_content",
+      "src_content_config",
+      "src_content_config_blog",
+      "src_content_config_collections"
+    ],
+    "12": [
+      "tsconfig",
+      "tsconfig_compileroptions",
+      "tsconfig_compileroptions_noimplicitany",
+      "tsconfig_extends"
+    ],
+    "13": [
+      "src_env_d",
+      "src_env_d_importmeta",
+      "src_env_d_importmetaenv"
+    ],
+    "14": [
+      "lib_pagination",
+      "lib_pagination_paginate"
+    ],
+    "15": [
+      "astro_content_assets"
+    ],
+    "16": [
+      "astro_content_modules"
+    ],
+    "17": [
+      "astro_types_d"
+    ]
+  },
+  "cohesion": {
+    "0": 0.058823529411764705,
+    "1": 0.08307692307692308,
+    "2": 0.08,
+    "3": 0.11,
+    "4": 0.2631578947368421,
+    "5": 0.11764705882352941,
+    "6": 0.24242424242424243,
+    "7": 0.18181818181818182,
+    "8": 0.2857142857142857,
+    "9": 0.2857142857142857,
+    "10": 0.4,
+    "11": 0.5,
+    "12": 0.5,
+    "13": 0.6666666666666666,
+    "14": 1.0,
+    "15": 1.0,
+    "16": 1.0,
+    "17": 1.0
+  },
+  "gods": [
+    {
+      "id": "layouts_baselayout",
+      "label": "../../layouts/BaseLayout.astro",
+      "degree": 22
+    },
+    {
+      "id": "site-nur-mufid-blog",
+      "label": "Nur Mufid Blog",
+      "degree": 21
+    },
+    {
+      "id": "lib_posts_getposts",
+      "label": "getPosts()",
+      "degree": 15
+    },
+    {
+      "id": "doc-astro-seo-guide",
+      "label": "Astro SEO Guide for Technical Blogs",
+      "degree": 10
+    },
+    {
+      "id": "components_postcard",
+      "label": "../../components/PostCard.astro",
+      "degree": 9
+    },
+    {
+      "id": "lib_site_site",
+      "label": "site",
+      "degree": 7
+    },
+    {
+      "id": "doc-kubernetes-notes",
+      "label": "Kubernetes Notes for Practical Operators",
+      "degree": 7
+    },
+    {
+      "id": "doc-linux-productivity",
+      "label": "Linux Productivity Habits That Compound",
+      "degree": 7
+    },
+    {
+      "id": "lib_posts_slugify",
+      "label": "slugify()",
+      "degree": 6
+    },
+    {
+      "id": "lib_posts_posturl",
+      "label": "postUrl()",
+      "degree": 6
+    }
+  ],
+  "surprises": [
+    {
+      "source": "https://blog.nmrooms.biz.id",
+      "target": "Nur Mufid Blog",
+      "source_files": [
+        "CONTEXT.md",
+        "package.json"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "CANONICAL_FOR",
+      "why": "crosses file types (code ↔ doc); connects across different repos/directories; peripheral node `https://blog.nmrooms.biz.id` unexpectedly reaches hub `Nur Mufid Blog`"
+    },
+    {
+      "source": "Kubernetes Notes for Practical Operators",
+      "target": "Nur Mufid Blog",
+      "source_files": [
+        "src/content/blog/kubernetes-notes.md",
+        "package.json"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "BELONGS_TO",
+      "why": "crosses file types (code ↔ doc); connects across different repos/directories; bridges separate communities"
+    },
+    {
+      "source": "Linux Productivity Habits That Compound",
+      "target": "Nur Mufid Blog",
+      "source_files": [
+        "src/content/blog/linux-productivity.md",
+        "package.json"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "BELONGS_TO",
+      "why": "crosses file types (code ↔ doc); connects across different repos/directories; bridges separate communities"
+    },
+    {
+      "source": "Nur Mufid Blog",
+      "target": "Clean Article URLs",
+      "source_files": [
+        "package.json",
+        "CONTEXT.md"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "DECIDES",
+      "why": "crosses file types (code ↔ doc); connects across different repos/directories; peripheral node `Clean Article URLs` unexpectedly reaches hub `Nur Mufid Blog`"
+    },
+    {
+      "source": "Nur Mufid Blog",
+      "target": "Automatic Article Navigation",
+      "source_files": [
+        "package.json",
+        "CONTEXT.md"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "USES",
+      "why": "crosses file types (code ↔ doc); connects across different repos/directories; peripheral node `Automatic Article Navigation` unexpectedly reaches hub `Nur Mufid Blog`"
+    }
+  ],
+  "questions": [
+    {
+      "type": "bridge_node",
+      "question": "Why does `Nur Mufid Blog` connect `Community 1` to `Community 5`, `Community 6`, `Community 7`, `Community 8`, `Community 9`?",
+      "why": "High betweenness centrality (0.188) - this node is a cross-community bridge."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `reading-time` connect `Community 7` to `Community 1`, `Community 4`?",
+      "why": "High betweenness centrality (0.132) - this node is a cross-community bridge."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `dependencies` connect `Community 7` to `Community 5`?",
+      "why": "High betweenness centrality (0.089) - this node is a cross-community bridge."
+    },
+    {
+      "type": "isolated_nodes",
+      "question": "What connects `$schema`, `type`, `type` to the rest of the system?",
+      "why": "113 weakly-connected nodes found - possible documentation gaps or missing edges."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `Community 0` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.058823529411764705 - nodes in this community are weakly interconnected."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `Community 1` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.08307692307692308 - nodes in this community are weakly interconnected."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `Community 2` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.08 - nodes in this community are weakly interconnected."
+    }
+  ]
+}
